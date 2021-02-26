@@ -1,0 +1,7064 @@
+html,
+body,
+.container,
+section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    background: #091726;
+    background: linear-gradient(180deg, #091726 0%, #243cloud-54 100%);
+}
+
+section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+section.z-100 {
+    z-index: 100;
+}
+
+.land {
+    position: absolute;
+    right: 0;
+    bottom: -0.5rem;
+    left: 0;
+    z-index: 999;
+}
+
+.land img {
+    width: 101vw;
+}
+
+@-webkit-keyframes lantern-rise {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    30% {
+        transform: translate(20%, -40vh) rotate(10deg);
+    }
+    50% {
+        transform: translate(-30%, -90vh) rotate(-10deg);
+    }
+    70% {
+        opacity: 1;
+        transform: translate(20%, -115vh) rotate(10deg);
+    }
+    90% {
+        opacity: 1;
+        transform: translate(10%, -130vh) rotate(5deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0, -140vh) rotate(-10deg);
+    }
+}
+
+@keyframes lantern-rise {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    30% {
+        transform: translate(20%, -40vh) rotate(10deg);
+    }
+    50% {
+        transform: translate(-30%, -90vh) rotate(-10deg);
+    }
+    70% {
+        opacity: 1;
+        transform: translate(20%, -115vh) rotate(10deg);
+    }
+    90% {
+        opacity: 1;
+        transform: translate(10%, -130vh) rotate(5deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0, -140vh) rotate(-10deg);
+    }
+}
+
+.lantern {
+    position: absolute;
+    -webkit-animation: lantern-rise infinite linear;
+    animation: lantern-rise infinite linear;
+}
+
+.lantern-1 {
+    top: 131.8956923971%;
+    left: 44.4668703803%;
+    z-index: 90;
+    max-width: 90px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 75s;
+    animation-duration: 75s;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+.blur .lantern-1 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-1 {
+        max-width: 45px;
+    }
+}
+
+.lantern-2 {
+    top: 169.3926708623%;
+    left: 32.0584502574%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.blur .lantern-2 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-2 {
+        max-width: 16px;
+    }
+}
+
+.lantern-3 {
+    top: 134.1093483242%;
+    left: 51.908889094%;
+    z-index: 112;
+    max-width: 112px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 56.6666666667s;
+    animation-duration: 56.6666666667s;
+    -webkit-animation-delay: -0.3s;
+    animation-delay: -0.3s;
+}
+
+.blur .lantern-3 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-3 {
+        max-width: 56px;
+    }
+}
+
+.lantern-4 {
+    top: 173.826443077%;
+    left: 74.5365529408%;
+    z-index: 115;
+    max-width: 115px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 54.1666666667s;
+    animation-duration: 54.1666666667s;
+    -webkit-animation-delay: -0.4s;
+    animation-delay: -0.4s;
+}
+
+.blur .lantern-4 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-4 {
+        max-width: 57.5px;
+    }
+}
+
+.lantern-5 {
+    top: 188.4047487883%;
+    left: 25.3346061835%;
+    z-index: 110;
+    max-width: 110px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 58.3333333333s;
+    animation-duration: 58.3333333333s;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.blur .lantern-5 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-5 {
+        max-width: 55px;
+    }
+}
+
+.lantern-6 {
+    top: 163.9769534444%;
+    left: 83.2091529436%;
+    z-index: 37;
+    max-width: 37px;
+    filter: grayscale(63%);
+    -webkit-animation-duration: 119.1666666667s;
+    animation-duration: 119.1666666667s;
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+.blur .lantern-6 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-6 {
+        max-width: 18.5px;
+    }
+}
+
+.lantern-7 {
+    top: 119.1873287238%;
+    left: 49.4037961034%;
+    z-index: 74;
+    max-width: 74px;
+    filter: grayscale(26%);
+    -webkit-animation-duration: 88.3333333333s;
+    animation-duration: 88.3333333333s;
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+.blur .lantern-7 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-7 {
+        max-width: 37px;
+    }
+}
+
+.lantern-8 {
+    top: 102.0697667784%;
+    left: 31.0397610878%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.blur .lantern-8 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-8 {
+        max-width: 16px;
+    }
+}
+
+.lantern-9 {
+    top: 109.2190349434%;
+    left: 78.8261923122%;
+    z-index: 33;
+    max-width: 33px;
+    filter: grayscale(67%);
+    -webkit-animation-duration: 122.5s;
+    animation-duration: 122.5s;
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.blur .lantern-9 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-9 {
+        max-width: 16.5px;
+    }
+}
+
+.lantern-10 {
+    top: 131.4452302905%;
+    left: 68.1331812414%;
+    z-index: 45;
+    max-width: 45px;
+    filter: grayscale(55%);
+    -webkit-animation-duration: 112.5s;
+    animation-duration: 112.5s;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.blur .lantern-10 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-10 {
+        max-width: 22.5px;
+    }
+}
+
+.lantern-11 {
+    top: 168.9317764743%;
+    left: 6.3585271389%;
+    z-index: 110;
+    max-width: 110px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 58.3333333333s;
+    animation-duration: 58.3333333333s;
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.blur .lantern-11 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-11 {
+        max-width: 55px;
+    }
+}
+
+.lantern-12 {
+    top: 134.7407123471%;
+    left: 13.0832212464%;
+    z-index: 20;
+    max-width: 20px;
+    filter: grayscale(80%);
+    -webkit-animation-duration: 133.3333333333s;
+    animation-duration: 133.3333333333s;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+}
+
+.blur .lantern-12 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-12 {
+        max-width: 10px;
+    }
+}
+
+.lantern-13 {
+    top: 188.9053083959%;
+    left: 83.3813690581%;
+    z-index: 95;
+    max-width: 95px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 70.8333333333s;
+    animation-duration: 70.8333333333s;
+    -webkit-animation-delay: -1.3s;
+    animation-delay: -1.3s;
+}
+
+.blur .lantern-13 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-13 {
+        max-width: 47.5px;
+    }
+}
+
+.lantern-14 {
+    top: 160.3883703633%;
+    left: 5.3145275564%;
+    z-index: 74;
+    max-width: 74px;
+    filter: grayscale(26%);
+    -webkit-animation-duration: 88.3333333333s;
+    animation-duration: 88.3333333333s;
+    -webkit-animation-delay: -1.4s;
+    animation-delay: -1.4s;
+}
+
+.blur .lantern-14 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-14 {
+        max-width: 37px;
+    }
+}
+
+.lantern-15 {
+    top: 150.9531312137%;
+    left: 68.0241751556%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -1.5s;
+    animation-delay: -1.5s;
+}
+
+.blur .lantern-15 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-15 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-16 {
+    top: 151.8012392649%;
+    left: 61.5990264614%;
+    z-index: 92;
+    max-width: 92px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 73.3333333333s;
+    animation-duration: 73.3333333333s;
+    -webkit-animation-delay: -1.6s;
+    animation-delay: -1.6s;
+}
+
+.blur .lantern-16 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-16 {
+        max-width: 46px;
+    }
+}
+
+.lantern-17 {
+    top: 162.2549903405%;
+    left: 30.6705950773%;
+    z-index: 44;
+    max-width: 44px;
+    filter: grayscale(56%);
+    -webkit-animation-duration: 113.3333333333s;
+    animation-duration: 113.3333333333s;
+    -webkit-animation-delay: -1.7s;
+    animation-delay: -1.7s;
+}
+
+.blur .lantern-17 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-17 {
+        max-width: 22px;
+    }
+}
+
+.lantern-18 {
+    top: 187.3336243685%;
+    left: 20.0387695599%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -1.8s;
+    animation-delay: -1.8s;
+}
+
+.blur .lantern-18 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-18 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-19 {
+    top: 156.4284390358%;
+    left: 50.3631847151%;
+    z-index: 74;
+    max-width: 74px;
+    filter: grayscale(26%);
+    -webkit-animation-duration: 88.3333333333s;
+    animation-duration: 88.3333333333s;
+    -webkit-animation-delay: -1.9s;
+    animation-delay: -1.9s;
+}
+
+.blur .lantern-19 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-19 {
+        max-width: 37px;
+    }
+}
+
+.lantern-20 {
+    top: 106.874864559%;
+    left: 28.670336623%;
+    z-index: 116;
+    max-width: 116px;
+    filter: grayscale(16%);
+    -webkit-animation-duration: 53.3333333333s;
+    animation-duration: 53.3333333333s;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+}
+
+.blur .lantern-20 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-20 {
+        max-width: 58px;
+    }
+}
+
+.lantern-21 {
+    top: 142.6675644382%;
+    left: 28.5135785555%;
+    z-index: 82;
+    max-width: 82px;
+    filter: grayscale(18%);
+    -webkit-animation-duration: 81.6666666667s;
+    animation-duration: 81.6666666667s;
+    -webkit-animation-delay: -2.1s;
+    animation-delay: -2.1s;
+}
+
+.blur .lantern-21 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-21 {
+        max-width: 41px;
+    }
+}
+
+.lantern-22 {
+    top: 110.9730430111%;
+    left: 54.9769110976%;
+    z-index: 54;
+    max-width: 54px;
+    filter: grayscale(46%);
+    -webkit-animation-duration: 105s;
+    animation-duration: 105s;
+    -webkit-animation-delay: -2.2s;
+    animation-delay: -2.2s;
+}
+
+.blur .lantern-22 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-22 {
+        max-width: 27px;
+    }
+}
+
+.lantern-23 {
+    top: 157.9339254439%;
+    left: 63.4987964352%;
+    z-index: 28;
+    max-width: 28px;
+    filter: grayscale(72%);
+    -webkit-animation-duration: 126.6666666667s;
+    animation-duration: 126.6666666667s;
+    -webkit-animation-delay: -2.3s;
+    animation-delay: -2.3s;
+}
+
+.blur .lantern-23 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-23 {
+        max-width: 14px;
+    }
+}
+
+.lantern-24 {
+    top: 185.076626915%;
+    left: 57.7496465042%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+}
+
+.blur .lantern-24 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-24 {
+        max-width: 17px;
+    }
+}
+
+.lantern-25 {
+    top: 141.1941126287%;
+    left: 3.2409280186%;
+    z-index: 82;
+    max-width: 82px;
+    filter: grayscale(18%);
+    -webkit-animation-duration: 81.6666666667s;
+    animation-duration: 81.6666666667s;
+    -webkit-animation-delay: -2.5s;
+    animation-delay: -2.5s;
+}
+
+.blur .lantern-25 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-25 {
+        max-width: 41px;
+    }
+}
+
+.lantern-26 {
+    top: 106.1695932719%;
+    left: 45.0186848748%;
+    z-index: 73;
+    max-width: 73px;
+    filter: grayscale(27%);
+    -webkit-animation-duration: 89.1666666667s;
+    animation-duration: 89.1666666667s;
+    -webkit-animation-delay: -2.6s;
+    animation-delay: -2.6s;
+}
+
+.blur .lantern-26 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-26 {
+        max-width: 36.5px;
+    }
+}
+
+.lantern-27 {
+    top: 107.3832673383%;
+    left: 80.8100719112%;
+    z-index: 113;
+    max-width: 113px;
+    filter: grayscale(13%);
+    -webkit-animation-duration: 55.8333333333s;
+    animation-duration: 55.8333333333s;
+    -webkit-animation-delay: -2.7s;
+    animation-delay: -2.7s;
+}
+
+.blur .lantern-27 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-27 {
+        max-width: 56.5px;
+    }
+}
+
+.lantern-28 {
+    top: 169.8967879973%;
+    left: 10.364432111%;
+    z-index: 25;
+    max-width: 25px;
+    filter: grayscale(75%);
+    -webkit-animation-duration: 129.1666666667s;
+    animation-duration: 129.1666666667s;
+    -webkit-animation-delay: -2.8s;
+    animation-delay: -2.8s;
+}
+
+.blur .lantern-28 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-28 {
+        max-width: 12.5px;
+    }
+}
+
+.lantern-29 {
+    top: 188.3859091486%;
+    left: 32.0574391385%;
+    z-index: 49;
+    max-width: 49px;
+    filter: grayscale(51%);
+    -webkit-animation-duration: 109.1666666667s;
+    animation-duration: 109.1666666667s;
+    -webkit-animation-delay: -2.9s;
+    animation-delay: -2.9s;
+}
+
+.blur .lantern-29 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-29 {
+        max-width: 24.5px;
+    }
+}
+
+.lantern-30 {
+    top: 122.4525504365%;
+    left: 53.818574552%;
+    z-index: 98;
+    max-width: 98px;
+    filter: grayscale(2%);
+    -webkit-animation-duration: 68.3333333333s;
+    animation-duration: 68.3333333333s;
+    -webkit-animation-delay: -3s;
+    animation-delay: -3s;
+}
+
+.blur .lantern-30 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-30 {
+        max-width: 49px;
+    }
+}
+
+.lantern-31 {
+    top: 105.0334599621%;
+    left: 48.5003643308%;
+    z-index: 60;
+    max-width: 60px;
+    filter: grayscale(40%);
+    -webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    -webkit-animation-delay: -3.1s;
+    animation-delay: -3.1s;
+}
+
+.blur .lantern-31 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-31 {
+        max-width: 30px;
+    }
+}
+
+.lantern-32 {
+    top: 117.1623058585%;
+    left: 25.4351307597%;
+    z-index: 86;
+    max-width: 86px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 78.3333333333s;
+    animation-duration: 78.3333333333s;
+    -webkit-animation-delay: -3.2s;
+    animation-delay: -3.2s;
+}
+
+.blur .lantern-32 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-32 {
+        max-width: 43px;
+    }
+}
+
+.lantern-33 {
+    top: 155.5846543552%;
+    left: 70.5882608058%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -3.3s;
+    animation-delay: -3.3s;
+}
+
+.blur .lantern-33 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-33 {
+        max-width: 29px;
+    }
+}
+
+.lantern-34 {
+    top: 136.6991967032%;
+    left: 26.130505653%;
+    z-index: 60;
+    max-width: 60px;
+    filter: grayscale(40%);
+    -webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    -webkit-animation-delay: -3.4s;
+    animation-delay: -3.4s;
+}
+
+.blur .lantern-34 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-34 {
+        max-width: 30px;
+    }
+}
+
+.lantern-35 {
+    top: 165.990189366%;
+    left: 50.7920526289%;
+    z-index: 92;
+    max-width: 92px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 73.3333333333s;
+    animation-duration: 73.3333333333s;
+    -webkit-animation-delay: -3.5s;
+    animation-delay: -3.5s;
+}
+
+.blur .lantern-35 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-35 {
+        max-width: 46px;
+    }
+}
+
+.lantern-36 {
+    top: 122.6276241207%;
+    left: 77.7468545833%;
+    z-index: 64;
+    max-width: 64px;
+    filter: grayscale(36%);
+    -webkit-animation-duration: 96.6666666667s;
+    animation-duration: 96.6666666667s;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+}
+
+.blur .lantern-36 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-36 {
+        max-width: 32px;
+    }
+}
+
+.lantern-37 {
+    top: 183.3089806332%;
+    left: 24.2776267852%;
+    z-index: 86;
+    max-width: 86px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 78.3333333333s;
+    animation-duration: 78.3333333333s;
+    -webkit-animation-delay: -3.7s;
+    animation-delay: -3.7s;
+}
+
+.blur .lantern-37 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-37 {
+        max-width: 43px;
+    }
+}
+
+.lantern-38 {
+    top: 116.3577577131%;
+    left: 13.6379149769%;
+    z-index: 104;
+    max-width: 104px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 63.3333333333s;
+    animation-duration: 63.3333333333s;
+    -webkit-animation-delay: -3.8s;
+    animation-delay: -3.8s;
+}
+
+.blur .lantern-38 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-38 {
+        max-width: 52px;
+    }
+}
+
+.lantern-39 {
+    top: 183.7184278569%;
+    left: 77.7409021335%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -3.9s;
+    animation-delay: -3.9s;
+}
+
+.blur .lantern-39 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-39 {
+        max-width: 16px;
+    }
+}
+
+.lantern-40 {
+    top: 137.8392603612%;
+    left: 14.766313996%;
+    z-index: 112;
+    max-width: 112px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 56.6666666667s;
+    animation-duration: 56.6666666667s;
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+}
+
+.blur .lantern-40 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-40 {
+        max-width: 56px;
+    }
+}
+
+.lantern-41 {
+    top: 102.4771686944%;
+    left: 47.4039992053%;
+    z-index: 41;
+    max-width: 41px;
+    filter: grayscale(59%);
+    -webkit-animation-duration: 115.8333333333s;
+    animation-duration: 115.8333333333s;
+    -webkit-animation-delay: -4.1s;
+    animation-delay: -4.1s;
+}
+
+.blur .lantern-41 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-41 {
+        max-width: 20.5px;
+    }
+}
+
+.lantern-42 {
+    top: 115.3154381385%;
+    left: 34.2854853775%;
+    z-index: 95;
+    max-width: 95px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 70.8333333333s;
+    animation-duration: 70.8333333333s;
+    -webkit-animation-delay: -4.2s;
+    animation-delay: -4.2s;
+}
+
+.blur .lantern-42 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-42 {
+        max-width: 47.5px;
+    }
+}
+
+.lantern-43 {
+    top: 113.0101937786%;
+    left: 51.3979541917%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -4.3s;
+    animation-delay: -4.3s;
+}
+
+.blur .lantern-43 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-43 {
+        max-width: 13px;
+    }
+}
+
+.lantern-44 {
+    top: 163.564812202%;
+    left: 35.8097996132%;
+    z-index: 100;
+    max-width: 100px;
+    filter: grayscale(0%);
+    -webkit-animation-duration: 66.6666666667s;
+    animation-duration: 66.6666666667s;
+    -webkit-animation-delay: -4.4s;
+    animation-delay: -4.4s;
+}
+
+.blur .lantern-44 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-44 {
+        max-width: 50px;
+    }
+}
+
+.lantern-45 {
+    top: 112.9337133934%;
+    left: 57.3559284687%;
+    z-index: 66;
+    max-width: 66px;
+    filter: grayscale(34%);
+    -webkit-animation-duration: 95s;
+    animation-duration: 95s;
+    -webkit-animation-delay: -4.5s;
+    animation-delay: -4.5s;
+}
+
+.blur .lantern-45 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-45 {
+        max-width: 33px;
+    }
+}
+
+.lantern-46 {
+    top: 172.3764891407%;
+    left: 23.6213421243%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -4.6s;
+    animation-delay: -4.6s;
+}
+
+.blur .lantern-46 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-46 {
+        max-width: 29px;
+    }
+}
+
+.lantern-47 {
+    top: 126.5246001108%;
+    left: 47.8442263322%;
+    z-index: 30;
+    max-width: 30px;
+    filter: grayscale(70%);
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
+    -webkit-animation-delay: -4.7s;
+    animation-delay: -4.7s;
+}
+
+.blur .lantern-47 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-47 {
+        max-width: 15px;
+    }
+}
+
+.lantern-48 {
+    top: 92.4184701472%;
+    left: 63.0907697125%;
+    z-index: 19;
+    max-width: 19px;
+    filter: grayscale(81%);
+    -webkit-animation-duration: 134.1666666667s;
+    animation-duration: 134.1666666667s;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+}
+
+.blur .lantern-48 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-48 {
+        max-width: 9.5px;
+    }
+}
+
+.lantern-49 {
+    top: 136.0598632525%;
+    left: 44.2966027827%;
+    z-index: 22;
+    max-width: 22px;
+    filter: grayscale(78%);
+    -webkit-animation-duration: 131.6666666667s;
+    animation-duration: 131.6666666667s;
+    -webkit-animation-delay: -4.9s;
+    animation-delay: -4.9s;
+}
+
+.blur .lantern-49 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-49 {
+        max-width: 11px;
+    }
+}
+
+.lantern-50 {
+    top: 174.2579369992%;
+    left: 50.1348981519%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -5s;
+    animation-delay: -5s;
+}
+
+.blur .lantern-50 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-50 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-51 {
+    top: 139.5083789441%;
+    left: 76.1522378549%;
+    z-index: 38;
+    max-width: 38px;
+    filter: grayscale(62%);
+    -webkit-animation-duration: 118.3333333333s;
+    animation-duration: 118.3333333333s;
+    -webkit-animation-delay: -5.1s;
+    animation-delay: -5.1s;
+}
+
+.blur .lantern-51 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-51 {
+        max-width: 19px;
+    }
+}
+
+.lantern-52 {
+    top: 128.1567614119%;
+    left: 35.0357471903%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -5.2s;
+    animation-delay: -5.2s;
+}
+
+.blur .lantern-52 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-52 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-53 {
+    top: 167.6049579241%;
+    left: 66.1530708743%;
+    z-index: 86;
+    max-width: 86px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 78.3333333333s;
+    animation-duration: 78.3333333333s;
+    -webkit-animation-delay: -5.3s;
+    animation-delay: -5.3s;
+}
+
+.blur .lantern-53 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-53 {
+        max-width: 43px;
+    }
+}
+
+.lantern-54 {
+    top: 123.9692703466%;
+    left: 77.3016383271%;
+    z-index: 113;
+    max-width: 113px;
+    filter: grayscale(13%);
+    -webkit-animation-duration: 55.8333333333s;
+    animation-duration: 55.8333333333s;
+    -webkit-animation-delay: -5.4s;
+    animation-delay: -5.4s;
+}
+
+.blur .lantern-54 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-54 {
+        max-width: 56.5px;
+    }
+}
+
+.lantern-55 {
+    top: 124.1251167692%;
+    left: 2.1276984887%;
+    z-index: 105;
+    max-width: 105px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 62.5s;
+    animation-duration: 62.5s;
+    -webkit-animation-delay: -5.5s;
+    animation-delay: -5.5s;
+}
+
+.blur .lantern-55 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-55 {
+        max-width: 52.5px;
+    }
+}
+
+.lantern-56 {
+    top: 106.0894206842%;
+    left: 43.6562704402%;
+    z-index: 87;
+    max-width: 87px;
+    filter: grayscale(13%);
+    -webkit-animation-duration: 77.5s;
+    animation-duration: 77.5s;
+    -webkit-animation-delay: -5.6s;
+    animation-delay: -5.6s;
+}
+
+.blur .lantern-56 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-56 {
+        max-width: 43.5px;
+    }
+}
+
+.lantern-57 {
+    top: 163.4581099112%;
+    left: 6.9113211133%;
+    z-index: 36;
+    max-width: 36px;
+    filter: grayscale(64%);
+    -webkit-animation-duration: 120s;
+    animation-duration: 120s;
+    -webkit-animation-delay: -5.7s;
+    animation-delay: -5.7s;
+}
+
+.blur .lantern-57 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-57 {
+        max-width: 18px;
+    }
+}
+
+.lantern-58 {
+    top: 130.0775763929%;
+    left: 0.780310559%;
+    z-index: 77;
+    max-width: 77px;
+    filter: grayscale(23%);
+    -webkit-animation-duration: 85.8333333333s;
+    animation-duration: 85.8333333333s;
+    -webkit-animation-delay: -5.8s;
+    animation-delay: -5.8s;
+}
+
+.blur .lantern-58 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-58 {
+        max-width: 38.5px;
+    }
+}
+
+.lantern-59 {
+    top: 115.3541348018%;
+    left: 83.5663788154%;
+    z-index: 85;
+    max-width: 85px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 79.1666666667s;
+    animation-duration: 79.1666666667s;
+    -webkit-animation-delay: -5.9s;
+    animation-delay: -5.9s;
+}
+
+.blur .lantern-59 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-59 {
+        max-width: 42.5px;
+    }
+}
+
+.lantern-60 {
+    top: 118.20924907%;
+    left: 51.7117742825%;
+    z-index: 57;
+    max-width: 57px;
+    filter: grayscale(43%);
+    -webkit-animation-duration: 102.5s;
+    animation-duration: 102.5s;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+}
+
+.blur .lantern-60 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-60 {
+        max-width: 28.5px;
+    }
+}
+
+.lantern-61 {
+    top: 157.5280190688%;
+    left: 14.4091534744%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -6.1s;
+    animation-delay: -6.1s;
+}
+
+.blur .lantern-61 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-61 {
+        max-width: 13px;
+    }
+}
+
+.lantern-62 {
+    top: 144.4440787205%;
+    left: 29.5531739945%;
+    z-index: 85;
+    max-width: 85px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 79.1666666667s;
+    animation-duration: 79.1666666667s;
+    -webkit-animation-delay: -6.2s;
+    animation-delay: -6.2s;
+}
+
+.blur .lantern-62 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-62 {
+        max-width: 42.5px;
+    }
+}
+
+.lantern-63 {
+    top: 153.0184923368%;
+    left: 22.5907579748%;
+    z-index: 111;
+    max-width: 111px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 57.5s;
+    animation-duration: 57.5s;
+    -webkit-animation-delay: -6.3s;
+    animation-delay: -6.3s;
+}
+
+.blur .lantern-63 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-63 {
+        max-width: 55.5px;
+    }
+}
+
+.lantern-64 {
+    top: 130.8899027775%;
+    left: 8.3852765416%;
+    z-index: 68;
+    max-width: 68px;
+    filter: grayscale(32%);
+    -webkit-animation-duration: 93.3333333333s;
+    animation-duration: 93.3333333333s;
+    -webkit-animation-delay: -6.4s;
+    animation-delay: -6.4s;
+}
+
+.blur .lantern-64 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-64 {
+        max-width: 34px;
+    }
+}
+
+.lantern-65 {
+    top: 127.5007303855%;
+    left: 47.3212533346%;
+    z-index: 28;
+    max-width: 28px;
+    filter: grayscale(72%);
+    -webkit-animation-duration: 126.6666666667s;
+    animation-duration: 126.6666666667s;
+    -webkit-animation-delay: -6.5s;
+    animation-delay: -6.5s;
+}
+
+.blur .lantern-65 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-65 {
+        max-width: 14px;
+    }
+}
+
+.lantern-66 {
+    top: 185.547455358%;
+    left: 4.8655120439%;
+    z-index: 98;
+    max-width: 98px;
+    filter: grayscale(2%);
+    -webkit-animation-duration: 68.3333333333s;
+    animation-duration: 68.3333333333s;
+    -webkit-animation-delay: -6.6s;
+    animation-delay: -6.6s;
+}
+
+.blur .lantern-66 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-66 {
+        max-width: 49px;
+    }
+}
+
+.lantern-67 {
+    top: 134.792140493%;
+    left: 10.2840565589%;
+    z-index: 63;
+    max-width: 63px;
+    filter: grayscale(37%);
+    -webkit-animation-duration: 97.5s;
+    animation-duration: 97.5s;
+    -webkit-animation-delay: -6.7s;
+    animation-delay: -6.7s;
+}
+
+.blur .lantern-67 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-67 {
+        max-width: 31.5px;
+    }
+}
+
+.lantern-68 {
+    top: 187.9278604901%;
+    left: 72.6865193875%;
+    z-index: 88;
+    max-width: 88px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 76.6666666667s;
+    animation-duration: 76.6666666667s;
+    -webkit-animation-delay: -6.8s;
+    animation-delay: -6.8s;
+}
+
+.blur .lantern-68 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-68 {
+        max-width: 44px;
+    }
+}
+
+.lantern-69 {
+    top: 182.756555655%;
+    left: 10.7043739678%;
+    z-index: 92;
+    max-width: 92px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 73.3333333333s;
+    animation-duration: 73.3333333333s;
+    -webkit-animation-delay: -6.9s;
+    animation-delay: -6.9s;
+}
+
+.blur .lantern-69 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-69 {
+        max-width: 46px;
+    }
+}
+
+.lantern-70 {
+    top: 183.2615470098%;
+    left: 34.0948971492%;
+    z-index: 46;
+    max-width: 46px;
+    filter: grayscale(54%);
+    -webkit-animation-duration: 111.6666666667s;
+    animation-duration: 111.6666666667s;
+    -webkit-animation-delay: -7s;
+    animation-delay: -7s;
+}
+
+.blur .lantern-70 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-70 {
+        max-width: 23px;
+    }
+}
+
+.lantern-71 {
+    top: 134.9934021614%;
+    left: 67.1778245241%;
+    z-index: 97;
+    max-width: 97px;
+    filter: grayscale(3%);
+    -webkit-animation-duration: 69.1666666667s;
+    animation-duration: 69.1666666667s;
+    -webkit-animation-delay: -7.1s;
+    animation-delay: -7.1s;
+}
+
+.blur .lantern-71 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-71 {
+        max-width: 48.5px;
+    }
+}
+
+.lantern-72 {
+    top: 143.0548780756%;
+    left: 49.0099366061%;
+    z-index: 95;
+    max-width: 95px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 70.8333333333s;
+    animation-duration: 70.8333333333s;
+    -webkit-animation-delay: -7.2s;
+    animation-delay: -7.2s;
+}
+
+.blur .lantern-72 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-72 {
+        max-width: 47.5px;
+    }
+}
+
+.lantern-73 {
+    top: 130.124423186%;
+    left: 11.6496482684%;
+    z-index: 97;
+    max-width: 97px;
+    filter: grayscale(3%);
+    -webkit-animation-duration: 69.1666666667s;
+    animation-duration: 69.1666666667s;
+    -webkit-animation-delay: -7.3s;
+    animation-delay: -7.3s;
+}
+
+.blur .lantern-73 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-73 {
+        max-width: 48.5px;
+    }
+}
+
+.lantern-74 {
+    top: 143.4825005509%;
+    left: 65.129106574%;
+    z-index: 101;
+    max-width: 101px;
+    filter: grayscale(1%);
+    -webkit-animation-duration: 65.8333333333s;
+    animation-duration: 65.8333333333s;
+    -webkit-animation-delay: -7.4s;
+    animation-delay: -7.4s;
+}
+
+.blur .lantern-74 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-74 {
+        max-width: 50.5px;
+    }
+}
+
+.lantern-75 {
+    top: 94.8665142643%;
+    left: 40.7349729894%;
+    z-index: 103;
+    max-width: 103px;
+    filter: grayscale(3%);
+    -webkit-animation-duration: 64.1666666667s;
+    animation-duration: 64.1666666667s;
+    -webkit-animation-delay: -7.5s;
+    animation-delay: -7.5s;
+}
+
+.blur .lantern-75 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-75 {
+        max-width: 51.5px;
+    }
+}
+
+.lantern-76 {
+    top: 139.7204001474%;
+    left: 39.9722407412%;
+    z-index: 18;
+    max-width: 18px;
+    filter: grayscale(82%);
+    -webkit-animation-duration: 135s;
+    animation-duration: 135s;
+    -webkit-animation-delay: -7.6s;
+    animation-delay: -7.6s;
+}
+
+.blur .lantern-76 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-76 {
+        max-width: 9px;
+    }
+}
+
+.lantern-77 {
+    top: 180.396440239%;
+    left: 28.3372897798%;
+    z-index: 21;
+    max-width: 21px;
+    filter: grayscale(79%);
+    -webkit-animation-duration: 132.5s;
+    animation-duration: 132.5s;
+    -webkit-animation-delay: -7.7s;
+    animation-delay: -7.7s;
+}
+
+.blur .lantern-77 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-77 {
+        max-width: 10.5px;
+    }
+}
+
+.lantern-78 {
+    top: 135.6552435152%;
+    left: 75.6409334777%;
+    z-index: 90;
+    max-width: 90px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 75s;
+    animation-duration: 75s;
+    -webkit-animation-delay: -7.8s;
+    animation-delay: -7.8s;
+}
+
+.blur .lantern-78 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-78 {
+        max-width: 45px;
+    }
+}
+
+.lantern-79 {
+    top: 145.499241829%;
+    left: 81.9357451526%;
+    z-index: 36;
+    max-width: 36px;
+    filter: grayscale(64%);
+    -webkit-animation-duration: 120s;
+    animation-duration: 120s;
+    -webkit-animation-delay: -7.9s;
+    animation-delay: -7.9s;
+}
+
+.blur .lantern-79 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-79 {
+        max-width: 18px;
+    }
+}
+
+.lantern-80 {
+    top: 178.8945119772%;
+    left: 70.3591811845%;
+    z-index: 107;
+    max-width: 107px;
+    filter: grayscale(7%);
+    -webkit-animation-duration: 60.8333333333s;
+    animation-duration: 60.8333333333s;
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+}
+
+.blur .lantern-80 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-80 {
+        max-width: 53.5px;
+    }
+}
+
+.lantern-81 {
+    top: 102.9437719999%;
+    left: 75.022126412%;
+    z-index: 79;
+    max-width: 79px;
+    filter: grayscale(21%);
+    -webkit-animation-duration: 84.1666666667s;
+    animation-duration: 84.1666666667s;
+    -webkit-animation-delay: -8.1s;
+    animation-delay: -8.1s;
+}
+
+.blur .lantern-81 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-81 {
+        max-width: 39.5px;
+    }
+}
+
+.lantern-82 {
+    top: 156.5272784895%;
+    left: 11.226858947%;
+    z-index: 89;
+    max-width: 89px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 75.8333333333s;
+    animation-duration: 75.8333333333s;
+    -webkit-animation-delay: -8.2s;
+    animation-delay: -8.2s;
+}
+
+.blur .lantern-82 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-82 {
+        max-width: 44.5px;
+    }
+}
+
+.lantern-83 {
+    top: 106.3204768213%;
+    left: 40.792706542%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -8.3s;
+    animation-delay: -8.3s;
+}
+
+.blur .lantern-83 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-83 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-84 {
+    top: 160.7832652499%;
+    left: 4.3095423387%;
+    z-index: 96;
+    max-width: 96px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 70s;
+    animation-duration: 70s;
+    -webkit-animation-delay: -8.4s;
+    animation-delay: -8.4s;
+}
+
+.blur .lantern-84 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-84 {
+        max-width: 48px;
+    }
+}
+
+.lantern-85 {
+    top: 139.0948076189%;
+    left: 22.6806651775%;
+    z-index: 116;
+    max-width: 116px;
+    filter: grayscale(16%);
+    -webkit-animation-duration: 53.3333333333s;
+    animation-duration: 53.3333333333s;
+    -webkit-animation-delay: -8.5s;
+    animation-delay: -8.5s;
+}
+
+.blur .lantern-85 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-85 {
+        max-width: 58px;
+    }
+}
+
+.lantern-86 {
+    top: 121.4867591948%;
+    left: 49.7102122467%;
+    z-index: 30;
+    max-width: 30px;
+    filter: grayscale(70%);
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
+    -webkit-animation-delay: -8.6s;
+    animation-delay: -8.6s;
+}
+
+.blur .lantern-86 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-86 {
+        max-width: 15px;
+    }
+}
+
+.lantern-87 {
+    top: 94.538549534%;
+    left: 46.4248338323%;
+    z-index: 66;
+    max-width: 66px;
+    filter: grayscale(34%);
+    -webkit-animation-duration: 95s;
+    animation-duration: 95s;
+    -webkit-animation-delay: -8.7s;
+    animation-delay: -8.7s;
+}
+
+.blur .lantern-87 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-87 {
+        max-width: 33px;
+    }
+}
+
+.lantern-88 {
+    top: 116.7630254595%;
+    left: 67.3230145712%;
+    z-index: 108;
+    max-width: 108px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -webkit-animation-delay: -8.8s;
+    animation-delay: -8.8s;
+}
+
+.blur .lantern-88 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-88 {
+        max-width: 54px;
+    }
+}
+
+.lantern-89 {
+    top: 121.2987649912%;
+    left: 60.0085620116%;
+    z-index: 22;
+    max-width: 22px;
+    filter: grayscale(78%);
+    -webkit-animation-duration: 131.6666666667s;
+    animation-duration: 131.6666666667s;
+    -webkit-animation-delay: -8.9s;
+    animation-delay: -8.9s;
+}
+
+.blur .lantern-89 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-89 {
+        max-width: 11px;
+    }
+}
+
+.lantern-90 {
+    top: 187.6508901038%;
+    left: 75.6963876519%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -9s;
+    animation-delay: -9s;
+}
+
+.blur .lantern-90 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-90 {
+        max-width: 16px;
+    }
+}
+
+.lantern-91 {
+    top: 143.541735662%;
+    left: 5.938764912%;
+    z-index: 46;
+    max-width: 46px;
+    filter: grayscale(54%);
+    -webkit-animation-duration: 111.6666666667s;
+    animation-duration: 111.6666666667s;
+    -webkit-animation-delay: -9.1s;
+    animation-delay: -9.1s;
+}
+
+.blur .lantern-91 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-91 {
+        max-width: 23px;
+    }
+}
+
+.lantern-92 {
+    top: 169.3851288625%;
+    left: 79.8784178942%;
+    z-index: 70;
+    max-width: 70px;
+    filter: grayscale(30%);
+    -webkit-animation-duration: 91.6666666667s;
+    animation-duration: 91.6666666667s;
+    -webkit-animation-delay: -9.2s;
+    animation-delay: -9.2s;
+}
+
+.blur .lantern-92 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-92 {
+        max-width: 35px;
+    }
+}
+
+.lantern-93 {
+    top: 113.6886141084%;
+    left: 34.4512252204%;
+    z-index: 105;
+    max-width: 105px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 62.5s;
+    animation-duration: 62.5s;
+    -webkit-animation-delay: -9.3s;
+    animation-delay: -9.3s;
+}
+
+.blur .lantern-93 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-93 {
+        max-width: 52.5px;
+    }
+}
+
+.lantern-94 {
+    top: 104.8293826653%;
+    left: 26.2324349721%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -9.4s;
+    animation-delay: -9.4s;
+}
+
+.blur .lantern-94 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-94 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-95 {
+    top: 115.7458991001%;
+    left: 10.6664780116%;
+    z-index: 114;
+    max-width: 114px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 55s;
+    animation-duration: 55s;
+    -webkit-animation-delay: -9.5s;
+    animation-delay: -9.5s;
+}
+
+.blur .lantern-95 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-95 {
+        max-width: 57px;
+    }
+}
+
+.lantern-96 {
+    top: 126.5864486391%;
+    left: 16.5227420952%;
+    z-index: 104;
+    max-width: 104px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 63.3333333333s;
+    animation-duration: 63.3333333333s;
+    -webkit-animation-delay: -9.6s;
+    animation-delay: -9.6s;
+}
+
+.blur .lantern-96 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-96 {
+        max-width: 52px;
+    }
+}
+
+.lantern-97 {
+    top: 106.8675595569%;
+    left: 81.3517150707%;
+    z-index: 47;
+    max-width: 47px;
+    filter: grayscale(53%);
+    -webkit-animation-duration: 110.8333333333s;
+    animation-duration: 110.8333333333s;
+    -webkit-animation-delay: -9.7s;
+    animation-delay: -9.7s;
+}
+
+.blur .lantern-97 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-97 {
+        max-width: 23.5px;
+    }
+}
+
+.lantern-98 {
+    top: 185.9844640838%;
+    left: 76.5621247141%;
+    z-index: 25;
+    max-width: 25px;
+    filter: grayscale(75%);
+    -webkit-animation-duration: 129.1666666667s;
+    animation-duration: 129.1666666667s;
+    -webkit-animation-delay: -9.8s;
+    animation-delay: -9.8s;
+}
+
+.blur .lantern-98 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-98 {
+        max-width: 12.5px;
+    }
+}
+
+.lantern-99 {
+    top: 142.3213826109%;
+    left: 18.2751731096%;
+    z-index: 22;
+    max-width: 22px;
+    filter: grayscale(78%);
+    -webkit-animation-duration: 131.6666666667s;
+    animation-duration: 131.6666666667s;
+    -webkit-animation-delay: -9.9s;
+    animation-delay: -9.9s;
+}
+
+.blur .lantern-99 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-99 {
+        max-width: 11px;
+    }
+}
+
+.lantern-100 {
+    top: 167.4826615182%;
+    left: 14.7312264823%;
+    z-index: 50;
+    max-width: 50px;
+    filter: grayscale(50%);
+    -webkit-animation-duration: 108.3333333333s;
+    animation-duration: 108.3333333333s;
+    -webkit-animation-delay: -10s;
+    animation-delay: -10s;
+}
+
+.blur .lantern-100 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-100 {
+        max-width: 25px;
+    }
+}
+
+.lantern-101 {
+    top: 159.0374421656%;
+    left: 87.9854908269%;
+    z-index: 43;
+    max-width: 43px;
+    filter: grayscale(57%);
+    -webkit-animation-duration: 114.1666666667s;
+    animation-duration: 114.1666666667s;
+    -webkit-animation-delay: -10.1s;
+    animation-delay: -10.1s;
+}
+
+.blur .lantern-101 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-101 {
+        max-width: 21.5px;
+    }
+}
+
+.lantern-102 {
+    top: 167.5930972726%;
+    left: 48.2036470924%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -10.2s;
+    animation-delay: -10.2s;
+}
+
+.blur .lantern-102 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-102 {
+        max-width: 29px;
+    }
+}
+
+.lantern-103 {
+    top: 121.2589197165%;
+    left: 43.7256660869%;
+    z-index: 114;
+    max-width: 114px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 55s;
+    animation-duration: 55s;
+    -webkit-animation-delay: -10.3s;
+    animation-delay: -10.3s;
+}
+
+.blur .lantern-103 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-103 {
+        max-width: 57px;
+    }
+}
+
+.lantern-104 {
+    top: 152.9018014407%;
+    left: 5.3965697979%;
+    z-index: 23;
+    max-width: 23px;
+    filter: grayscale(77%);
+    -webkit-animation-duration: 130.8333333333s;
+    animation-duration: 130.8333333333s;
+    -webkit-animation-delay: -10.4s;
+    animation-delay: -10.4s;
+}
+
+.blur .lantern-104 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-104 {
+        max-width: 11.5px;
+    }
+}
+
+.lantern-105 {
+    top: 148.2219857221%;
+    left: 56.6442207417%;
+    z-index: 70;
+    max-width: 70px;
+    filter: grayscale(30%);
+    -webkit-animation-duration: 91.6666666667s;
+    animation-duration: 91.6666666667s;
+    -webkit-animation-delay: -10.5s;
+    animation-delay: -10.5s;
+}
+
+.blur .lantern-105 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-105 {
+        max-width: 35px;
+    }
+}
+
+.lantern-106 {
+    top: 105.922223616%;
+    left: 13.570991558%;
+    z-index: 84;
+    max-width: 84px;
+    filter: grayscale(16%);
+    -webkit-animation-duration: 80s;
+    animation-duration: 80s;
+    -webkit-animation-delay: -10.6s;
+    animation-delay: -10.6s;
+}
+
+.blur .lantern-106 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-106 {
+        max-width: 42px;
+    }
+}
+
+.lantern-107 {
+    top: 185.3299180544%;
+    left: 1.5921485746%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -10.7s;
+    animation-delay: -10.7s;
+}
+
+.blur .lantern-107 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-107 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-108 {
+    top: 162.5587174197%;
+    left: 0.7099258732%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -10.8s;
+    animation-delay: -10.8s;
+}
+
+.blur .lantern-108 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-108 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-109 {
+    top: 166.6898603452%;
+    left: 83.0639664899%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -10.9s;
+    animation-delay: -10.9s;
+}
+
+.blur .lantern-109 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-109 {
+        max-width: 17px;
+    }
+}
+
+.lantern-110 {
+    top: 162.7416187002%;
+    left: 18.070990048%;
+    z-index: 31;
+    max-width: 31px;
+    filter: grayscale(69%);
+    -webkit-animation-duration: 124.1666666667s;
+    animation-duration: 124.1666666667s;
+    -webkit-animation-delay: -11s;
+    animation-delay: -11s;
+}
+
+.blur .lantern-110 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-110 {
+        max-width: 15.5px;
+    }
+}
+
+.lantern-111 {
+    top: 149.7829796052%;
+    left: 58.7656496697%;
+    z-index: 56;
+    max-width: 56px;
+    filter: grayscale(44%);
+    -webkit-animation-duration: 103.3333333333s;
+    animation-duration: 103.3333333333s;
+    -webkit-animation-delay: -11.1s;
+    animation-delay: -11.1s;
+}
+
+.blur .lantern-111 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-111 {
+        max-width: 28px;
+    }
+}
+
+.lantern-112 {
+    top: 114.7707759822%;
+    left: 69.6526115481%;
+    z-index: 52;
+    max-width: 52px;
+    filter: grayscale(48%);
+    -webkit-animation-duration: 106.6666666667s;
+    animation-duration: 106.6666666667s;
+    -webkit-animation-delay: -11.2s;
+    animation-delay: -11.2s;
+}
+
+.blur .lantern-112 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-112 {
+        max-width: 26px;
+    }
+}
+
+.lantern-113 {
+    top: 142.5476797836%;
+    left: 46.817152419%;
+    z-index: 21;
+    max-width: 21px;
+    filter: grayscale(79%);
+    -webkit-animation-duration: 132.5s;
+    animation-duration: 132.5s;
+    -webkit-animation-delay: -11.3s;
+    animation-delay: -11.3s;
+}
+
+.blur .lantern-113 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-113 {
+        max-width: 10.5px;
+    }
+}
+
+.lantern-114 {
+    top: 149.6818314249%;
+    left: 9.3225102397%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -11.4s;
+    animation-delay: -11.4s;
+}
+
+.blur .lantern-114 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-114 {
+        max-width: 29px;
+    }
+}
+
+.lantern-115 {
+    top: 183.1107277109%;
+    left: 15.3241220481%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -11.5s;
+    animation-delay: -11.5s;
+}
+
+.blur .lantern-115 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-115 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-116 {
+    top: 145.8174005395%;
+    left: 43.938274766%;
+    z-index: 20;
+    max-width: 20px;
+    filter: grayscale(80%);
+    -webkit-animation-duration: 133.3333333333s;
+    animation-duration: 133.3333333333s;
+    -webkit-animation-delay: -11.6s;
+    animation-delay: -11.6s;
+}
+
+.blur .lantern-116 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-116 {
+        max-width: 10px;
+    }
+}
+
+.lantern-117 {
+    top: 162.0190278791%;
+    left: 28.4349493621%;
+    z-index: 99;
+    max-width: 99px;
+    filter: grayscale(1%);
+    -webkit-animation-duration: 67.5s;
+    animation-duration: 67.5s;
+    -webkit-animation-delay: -11.7s;
+    animation-delay: -11.7s;
+}
+
+.blur .lantern-117 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-117 {
+        max-width: 49.5px;
+    }
+}
+
+.lantern-118 {
+    top: 140.6429619219%;
+    left: 26.7722443493%;
+    z-index: 19;
+    max-width: 19px;
+    filter: grayscale(81%);
+    -webkit-animation-duration: 134.1666666667s;
+    animation-duration: 134.1666666667s;
+    -webkit-animation-delay: -11.8s;
+    animation-delay: -11.8s;
+}
+
+.blur .lantern-118 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-118 {
+        max-width: 9.5px;
+    }
+}
+
+.lantern-119 {
+    top: 105.7428072747%;
+    left: 82.7048069319%;
+    z-index: 61;
+    max-width: 61px;
+    filter: grayscale(39%);
+    -webkit-animation-duration: 99.1666666667s;
+    animation-duration: 99.1666666667s;
+    -webkit-animation-delay: -11.9s;
+    animation-delay: -11.9s;
+}
+
+.blur .lantern-119 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-119 {
+        max-width: 30.5px;
+    }
+}
+
+.lantern-120 {
+    top: 155.6619681187%;
+    left: 80.5402471946%;
+    z-index: 19;
+    max-width: 19px;
+    filter: grayscale(81%);
+    -webkit-animation-duration: 134.1666666667s;
+    animation-duration: 134.1666666667s;
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+}
+
+.blur .lantern-120 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-120 {
+        max-width: 9.5px;
+    }
+}
+
+.lantern-121 {
+    top: 96.8748485777%;
+    left: 8.2611928817%;
+    z-index: 111;
+    max-width: 111px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 57.5s;
+    animation-duration: 57.5s;
+    -webkit-animation-delay: -12.1s;
+    animation-delay: -12.1s;
+}
+
+.blur .lantern-121 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-121 {
+        max-width: 55.5px;
+    }
+}
+
+.lantern-122 {
+    top: 93.7174930686%;
+    left: 44.763814642%;
+    z-index: 61;
+    max-width: 61px;
+    filter: grayscale(39%);
+    -webkit-animation-duration: 99.1666666667s;
+    animation-duration: 99.1666666667s;
+    -webkit-animation-delay: -12.2s;
+    animation-delay: -12.2s;
+}
+
+.blur .lantern-122 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-122 {
+        max-width: 30.5px;
+    }
+}
+
+.lantern-123 {
+    top: 124.0367509736%;
+    left: 60.1840599798%;
+    z-index: 68;
+    max-width: 68px;
+    filter: grayscale(32%);
+    -webkit-animation-duration: 93.3333333333s;
+    animation-duration: 93.3333333333s;
+    -webkit-animation-delay: -12.3s;
+    animation-delay: -12.3s;
+}
+
+.blur .lantern-123 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-123 {
+        max-width: 34px;
+    }
+}
+
+.lantern-124 {
+    top: 112.8314784525%;
+    left: 86.2282676186%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -12.4s;
+    animation-delay: -12.4s;
+}
+
+.blur .lantern-124 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-124 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-125 {
+    top: 186.9346852186%;
+    left: 44.55832279%;
+    z-index: 25;
+    max-width: 25px;
+    filter: grayscale(75%);
+    -webkit-animation-duration: 129.1666666667s;
+    animation-duration: 129.1666666667s;
+    -webkit-animation-delay: -12.5s;
+    animation-delay: -12.5s;
+}
+
+.blur .lantern-125 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-125 {
+        max-width: 12.5px;
+    }
+}
+
+.lantern-126 {
+    top: 137.0196437747%;
+    left: 68.5669833812%;
+    z-index: 30;
+    max-width: 30px;
+    filter: grayscale(70%);
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
+    -webkit-animation-delay: -12.6s;
+    animation-delay: -12.6s;
+}
+
+.blur .lantern-126 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-126 {
+        max-width: 15px;
+    }
+}
+
+.lantern-127 {
+    top: 187.1037683512%;
+    left: 12.0430635206%;
+    z-index: 112;
+    max-width: 112px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 56.6666666667s;
+    animation-duration: 56.6666666667s;
+    -webkit-animation-delay: -12.7s;
+    animation-delay: -12.7s;
+}
+
+.blur .lantern-127 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-127 {
+        max-width: 56px;
+    }
+}
+
+.lantern-128 {
+    top: 106.0190115915%;
+    left: 28.0725950259%;
+    z-index: 46;
+    max-width: 46px;
+    filter: grayscale(54%);
+    -webkit-animation-duration: 111.6666666667s;
+    animation-duration: 111.6666666667s;
+    -webkit-animation-delay: -12.8s;
+    animation-delay: -12.8s;
+}
+
+.blur .lantern-128 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-128 {
+        max-width: 23px;
+    }
+}
+
+.lantern-129 {
+    top: 139.8504412542%;
+    left: 68.7825551718%;
+    z-index: 37;
+    max-width: 37px;
+    filter: grayscale(63%);
+    -webkit-animation-duration: 119.1666666667s;
+    animation-duration: 119.1666666667s;
+    -webkit-animation-delay: -12.9s;
+    animation-delay: -12.9s;
+}
+
+.blur .lantern-129 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-129 {
+        max-width: 18.5px;
+    }
+}
+
+.lantern-130 {
+    top: 103.2825849748%;
+    left: 60.2331478861%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -13s;
+    animation-delay: -13s;
+}
+
+.blur .lantern-130 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-130 {
+        max-width: 29px;
+    }
+}
+
+.lantern-131 {
+    top: 132.8336576091%;
+    left: 48.760652825%;
+    z-index: 84;
+    max-width: 84px;
+    filter: grayscale(16%);
+    -webkit-animation-duration: 80s;
+    animation-duration: 80s;
+    -webkit-animation-delay: -13.1s;
+    animation-delay: -13.1s;
+}
+
+.blur .lantern-131 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-131 {
+        max-width: 42px;
+    }
+}
+
+.lantern-132 {
+    top: 186.3062441705%;
+    left: 32.4902218618%;
+    z-index: 28;
+    max-width: 28px;
+    filter: grayscale(72%);
+    -webkit-animation-duration: 126.6666666667s;
+    animation-duration: 126.6666666667s;
+    -webkit-animation-delay: -13.2s;
+    animation-delay: -13.2s;
+}
+
+.blur .lantern-132 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-132 {
+        max-width: 14px;
+    }
+}
+
+.lantern-133 {
+    top: 115.5012593614%;
+    left: 0.3563498607%;
+    z-index: 106;
+    max-width: 106px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 61.6666666667s;
+    animation-duration: 61.6666666667s;
+    -webkit-animation-delay: -13.3s;
+    animation-delay: -13.3s;
+}
+
+.blur .lantern-133 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-133 {
+        max-width: 53px;
+    }
+}
+
+.lantern-134 {
+    top: 124.2499759457%;
+    left: 38.0092853149%;
+    z-index: 19;
+    max-width: 19px;
+    filter: grayscale(81%);
+    -webkit-animation-duration: 134.1666666667s;
+    animation-duration: 134.1666666667s;
+    -webkit-animation-delay: -13.4s;
+    animation-delay: -13.4s;
+}
+
+.blur .lantern-134 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-134 {
+        max-width: 9.5px;
+    }
+}
+
+.lantern-135 {
+    top: 164.8124399726%;
+    left: 79.9018273285%;
+    z-index: 61;
+    max-width: 61px;
+    filter: grayscale(39%);
+    -webkit-animation-duration: 99.1666666667s;
+    animation-duration: 99.1666666667s;
+    -webkit-animation-delay: -13.5s;
+    animation-delay: -13.5s;
+}
+
+.blur .lantern-135 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-135 {
+        max-width: 30.5px;
+    }
+}
+
+.lantern-136 {
+    top: 112.6265144597%;
+    left: 8.3678880502%;
+    z-index: 18;
+    max-width: 18px;
+    filter: grayscale(82%);
+    -webkit-animation-duration: 135s;
+    animation-duration: 135s;
+    -webkit-animation-delay: -13.6s;
+    animation-delay: -13.6s;
+}
+
+.blur .lantern-136 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-136 {
+        max-width: 9px;
+    }
+}
+
+.lantern-137 {
+    top: 105.9184623587%;
+    left: 38.5249801333%;
+    z-index: 112;
+    max-width: 112px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 56.6666666667s;
+    animation-duration: 56.6666666667s;
+    -webkit-animation-delay: -13.7s;
+    animation-delay: -13.7s;
+}
+
+.blur .lantern-137 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-137 {
+        max-width: 56px;
+    }
+}
+
+.lantern-138 {
+    top: 123.6532879928%;
+    left: 54.9379204055%;
+    z-index: 113;
+    max-width: 113px;
+    filter: grayscale(13%);
+    -webkit-animation-duration: 55.8333333333s;
+    animation-duration: 55.8333333333s;
+    -webkit-animation-delay: -13.8s;
+    animation-delay: -13.8s;
+}
+
+.blur .lantern-138 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-138 {
+        max-width: 56.5px;
+    }
+}
+
+.lantern-139 {
+    top: 137.6285110997%;
+    left: 31.4287147621%;
+    z-index: 50;
+    max-width: 50px;
+    filter: grayscale(50%);
+    -webkit-animation-duration: 108.3333333333s;
+    animation-duration: 108.3333333333s;
+    -webkit-animation-delay: -13.9s;
+    animation-delay: -13.9s;
+}
+
+.blur .lantern-139 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-139 {
+        max-width: 25px;
+    }
+}
+
+.lantern-140 {
+    top: 182.1470694854%;
+    left: 64.7326319553%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -14s;
+    animation-delay: -14s;
+}
+
+.blur .lantern-140 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-140 {
+        max-width: 16px;
+    }
+}
+
+.lantern-141 {
+    top: 125.1046711396%;
+    left: 60.3350628476%;
+    z-index: 101;
+    max-width: 101px;
+    filter: grayscale(1%);
+    -webkit-animation-duration: 65.8333333333s;
+    animation-duration: 65.8333333333s;
+    -webkit-animation-delay: -14.1s;
+    animation-delay: -14.1s;
+}
+
+.blur .lantern-141 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-141 {
+        max-width: 50.5px;
+    }
+}
+
+.lantern-142 {
+    top: 155.4343851706%;
+    left: 23.7368879748%;
+    z-index: 53;
+    max-width: 53px;
+    filter: grayscale(47%);
+    -webkit-animation-duration: 105.8333333333s;
+    animation-duration: 105.8333333333s;
+    -webkit-animation-delay: -14.2s;
+    animation-delay: -14.2s;
+}
+
+.blur .lantern-142 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-142 {
+        max-width: 26.5px;
+    }
+}
+
+.lantern-143 {
+    top: 124.4869480079%;
+    left: 21.0350867113%;
+    z-index: 62;
+    max-width: 62px;
+    filter: grayscale(38%);
+    -webkit-animation-duration: 98.3333333333s;
+    animation-duration: 98.3333333333s;
+    -webkit-animation-delay: -14.3s;
+    animation-delay: -14.3s;
+}
+
+.blur .lantern-143 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-143 {
+        max-width: 31px;
+    }
+}
+
+.lantern-144 {
+    top: 140.8255655522%;
+    left: 14.2958875956%;
+    z-index: 74;
+    max-width: 74px;
+    filter: grayscale(26%);
+    -webkit-animation-duration: 88.3333333333s;
+    animation-duration: 88.3333333333s;
+    -webkit-animation-delay: -14.4s;
+    animation-delay: -14.4s;
+}
+
+.blur .lantern-144 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-144 {
+        max-width: 37px;
+    }
+}
+
+.lantern-145 {
+    top: 113.8493160193%;
+    left: 26.5394455712%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -14.5s;
+    animation-delay: -14.5s;
+}
+
+.blur .lantern-145 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-145 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-146 {
+    top: 114.128298603%;
+    left: 0.5704178479%;
+    z-index: 27;
+    max-width: 27px;
+    filter: grayscale(73%);
+    -webkit-animation-duration: 127.5s;
+    animation-duration: 127.5s;
+    -webkit-animation-delay: -14.6s;
+    animation-delay: -14.6s;
+}
+
+.blur .lantern-146 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-146 {
+        max-width: 13.5px;
+    }
+}
+
+.lantern-147 {
+    top: 184.0568224428%;
+    left: 68.7830771661%;
+    z-index: 25;
+    max-width: 25px;
+    filter: grayscale(75%);
+    -webkit-animation-duration: 129.1666666667s;
+    animation-duration: 129.1666666667s;
+    -webkit-animation-delay: -14.7s;
+    animation-delay: -14.7s;
+}
+
+.blur .lantern-147 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-147 {
+        max-width: 12.5px;
+    }
+}
+
+.lantern-148 {
+    top: 111.6755664941%;
+    left: 13.566678965%;
+    z-index: 56;
+    max-width: 56px;
+    filter: grayscale(44%);
+    -webkit-animation-duration: 103.3333333333s;
+    animation-duration: 103.3333333333s;
+    -webkit-animation-delay: -14.8s;
+    animation-delay: -14.8s;
+}
+
+.blur .lantern-148 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-148 {
+        max-width: 28px;
+    }
+}
+
+.lantern-149 {
+    top: 129.4937609702%;
+    left: 87.9009112555%;
+    z-index: 57;
+    max-width: 57px;
+    filter: grayscale(43%);
+    -webkit-animation-duration: 102.5s;
+    animation-duration: 102.5s;
+    -webkit-animation-delay: -14.9s;
+    animation-delay: -14.9s;
+}
+
+.blur .lantern-149 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-149 {
+        max-width: 28.5px;
+    }
+}
+
+.lantern-150 {
+    top: 140.2308449295%;
+    left: 31.3230746342%;
+    z-index: 73;
+    max-width: 73px;
+    filter: grayscale(27%);
+    -webkit-animation-duration: 89.1666666667s;
+    animation-duration: 89.1666666667s;
+    -webkit-animation-delay: -15s;
+    animation-delay: -15s;
+}
+
+.blur .lantern-150 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-150 {
+        max-width: 36.5px;
+    }
+}
+
+.lantern-151 {
+    top: 143.5684323359%;
+    left: 89.9516727499%;
+    z-index: 85;
+    max-width: 85px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 79.1666666667s;
+    animation-duration: 79.1666666667s;
+    -webkit-animation-delay: -15.1s;
+    animation-delay: -15.1s;
+}
+
+.blur .lantern-151 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-151 {
+        max-width: 42.5px;
+    }
+}
+
+.lantern-152 {
+    top: 151.6357235134%;
+    left: 28.3037302402%;
+    z-index: 62;
+    max-width: 62px;
+    filter: grayscale(38%);
+    -webkit-animation-duration: 98.3333333333s;
+    animation-duration: 98.3333333333s;
+    -webkit-animation-delay: -15.2s;
+    animation-delay: -15.2s;
+}
+
+.blur .lantern-152 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-152 {
+        max-width: 31px;
+    }
+}
+
+.lantern-153 {
+    top: 185.953179223%;
+    left: 9.6525141781%;
+    z-index: 105;
+    max-width: 105px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 62.5s;
+    animation-duration: 62.5s;
+    -webkit-animation-delay: -15.3s;
+    animation-delay: -15.3s;
+}
+
+.blur .lantern-153 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-153 {
+        max-width: 52.5px;
+    }
+}
+
+.lantern-154 {
+    top: 156.3330755274%;
+    left: 73.0205695867%;
+    z-index: 46;
+    max-width: 46px;
+    filter: grayscale(54%);
+    -webkit-animation-duration: 111.6666666667s;
+    animation-duration: 111.6666666667s;
+    -webkit-animation-delay: -15.4s;
+    animation-delay: -15.4s;
+}
+
+.blur .lantern-154 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-154 {
+        max-width: 23px;
+    }
+}
+
+.lantern-155 {
+    top: 145.1796824466%;
+    left: 80.0008570467%;
+    z-index: 115;
+    max-width: 115px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 54.1666666667s;
+    animation-duration: 54.1666666667s;
+    -webkit-animation-delay: -15.5s;
+    animation-delay: -15.5s;
+}
+
+.blur .lantern-155 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-155 {
+        max-width: 57.5px;
+    }
+}
+
+.lantern-156 {
+    top: 185.9758488993%;
+    left: 81.0758497434%;
+    z-index: 69;
+    max-width: 69px;
+    filter: grayscale(31%);
+    -webkit-animation-duration: 92.5s;
+    animation-duration: 92.5s;
+    -webkit-animation-delay: -15.6s;
+    animation-delay: -15.6s;
+}
+
+.blur .lantern-156 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-156 {
+        max-width: 34.5px;
+    }
+}
+
+.lantern-157 {
+    top: 115.3222472622%;
+    left: 88.0047155173%;
+    z-index: 38;
+    max-width: 38px;
+    filter: grayscale(62%);
+    -webkit-animation-duration: 118.3333333333s;
+    animation-duration: 118.3333333333s;
+    -webkit-animation-delay: -15.7s;
+    animation-delay: -15.7s;
+}
+
+.blur .lantern-157 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-157 {
+        max-width: 19px;
+    }
+}
+
+.lantern-158 {
+    top: 106.7239378994%;
+    left: 15.9161959269%;
+    z-index: 43;
+    max-width: 43px;
+    filter: grayscale(57%);
+    -webkit-animation-duration: 114.1666666667s;
+    animation-duration: 114.1666666667s;
+    -webkit-animation-delay: -15.8s;
+    animation-delay: -15.8s;
+}
+
+.blur .lantern-158 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-158 {
+        max-width: 21.5px;
+    }
+}
+
+.lantern-159 {
+    top: 157.3318602722%;
+    left: 9.2828708464%;
+    z-index: 110;
+    max-width: 110px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 58.3333333333s;
+    animation-duration: 58.3333333333s;
+    -webkit-animation-delay: -15.9s;
+    animation-delay: -15.9s;
+}
+
+.blur .lantern-159 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-159 {
+        max-width: 55px;
+    }
+}
+
+.lantern-160 {
+    top: 162.9383527466%;
+    left: 80.5025771324%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -16s;
+    animation-delay: -16s;
+}
+
+.blur .lantern-160 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-160 {
+        max-width: 17px;
+    }
+}
+
+.lantern-161 {
+    top: 131.5727600804%;
+    left: 61.317851697%;
+    z-index: 78;
+    max-width: 78px;
+    filter: grayscale(22%);
+    -webkit-animation-duration: 85s;
+    animation-duration: 85s;
+    -webkit-animation-delay: -16.1s;
+    animation-delay: -16.1s;
+}
+
+.blur .lantern-161 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-161 {
+        max-width: 39px;
+    }
+}
+
+.lantern-162 {
+    top: 152.9699425828%;
+    left: 42.2779444103%;
+    z-index: 71;
+    max-width: 71px;
+    filter: grayscale(29%);
+    -webkit-animation-duration: 90.8333333333s;
+    animation-duration: 90.8333333333s;
+    -webkit-animation-delay: -16.2s;
+    animation-delay: -16.2s;
+}
+
+.blur .lantern-162 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-162 {
+        max-width: 35.5px;
+    }
+}
+
+.lantern-163 {
+    top: 112.9844283986%;
+    left: 40.5000910914%;
+    z-index: 75;
+    max-width: 75px;
+    filter: grayscale(25%);
+    -webkit-animation-duration: 87.5s;
+    animation-duration: 87.5s;
+    -webkit-animation-delay: -16.3s;
+    animation-delay: -16.3s;
+}
+
+.blur .lantern-163 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-163 {
+        max-width: 37.5px;
+    }
+}
+
+.lantern-164 {
+    top: 143.6854692186%;
+    left: 32.6093517905%;
+    z-index: 79;
+    max-width: 79px;
+    filter: grayscale(21%);
+    -webkit-animation-duration: 84.1666666667s;
+    animation-duration: 84.1666666667s;
+    -webkit-animation-delay: -16.4s;
+    animation-delay: -16.4s;
+}
+
+.blur .lantern-164 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-164 {
+        max-width: 39.5px;
+    }
+}
+
+.lantern-165 {
+    top: 139.9699976637%;
+    left: 61.9364836825%;
+    z-index: 45;
+    max-width: 45px;
+    filter: grayscale(55%);
+    -webkit-animation-duration: 112.5s;
+    animation-duration: 112.5s;
+    -webkit-animation-delay: -16.5s;
+    animation-delay: -16.5s;
+}
+
+.blur .lantern-165 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-165 {
+        max-width: 22.5px;
+    }
+}
+
+.lantern-166 {
+    top: 152.9534130795%;
+    left: 58.9681475442%;
+    z-index: 25;
+    max-width: 25px;
+    filter: grayscale(75%);
+    -webkit-animation-duration: 129.1666666667s;
+    animation-duration: 129.1666666667s;
+    -webkit-animation-delay: -16.6s;
+    animation-delay: -16.6s;
+}
+
+.blur .lantern-166 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-166 {
+        max-width: 12.5px;
+    }
+}
+
+.lantern-167 {
+    top: 187.0452966271%;
+    left: 16.7476323759%;
+    z-index: 61;
+    max-width: 61px;
+    filter: grayscale(39%);
+    -webkit-animation-duration: 99.1666666667s;
+    animation-duration: 99.1666666667s;
+    -webkit-animation-delay: -16.7s;
+    animation-delay: -16.7s;
+}
+
+.blur .lantern-167 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-167 {
+        max-width: 30.5px;
+    }
+}
+
+.lantern-168 {
+    top: 112.8369951074%;
+    left: 89.5866266176%;
+    z-index: 45;
+    max-width: 45px;
+    filter: grayscale(55%);
+    -webkit-animation-duration: 112.5s;
+    animation-duration: 112.5s;
+    -webkit-animation-delay: -16.8s;
+    animation-delay: -16.8s;
+}
+
+.blur .lantern-168 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-168 {
+        max-width: 22.5px;
+    }
+}
+
+.lantern-169 {
+    top: 156.5431718005%;
+    left: 66.59916019%;
+    z-index: 66;
+    max-width: 66px;
+    filter: grayscale(34%);
+    -webkit-animation-duration: 95s;
+    animation-duration: 95s;
+    -webkit-animation-delay: -16.9s;
+    animation-delay: -16.9s;
+}
+
+.blur .lantern-169 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-169 {
+        max-width: 33px;
+    }
+}
+
+.lantern-170 {
+    top: 109.3068990322%;
+    left: 38.2211967473%;
+    z-index: 28;
+    max-width: 28px;
+    filter: grayscale(72%);
+    -webkit-animation-duration: 126.6666666667s;
+    animation-duration: 126.6666666667s;
+    -webkit-animation-delay: -17s;
+    animation-delay: -17s;
+}
+
+.blur .lantern-170 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-170 {
+        max-width: 14px;
+    }
+}
+
+.lantern-171 {
+    top: 137.9825385648%;
+    left: 89.1730675768%;
+    z-index: 101;
+    max-width: 101px;
+    filter: grayscale(1%);
+    -webkit-animation-duration: 65.8333333333s;
+    animation-duration: 65.8333333333s;
+    -webkit-animation-delay: -17.1s;
+    animation-delay: -17.1s;
+}
+
+.blur .lantern-171 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-171 {
+        max-width: 50.5px;
+    }
+}
+
+.lantern-172 {
+    top: 110.4029781912%;
+    left: 75.8523606856%;
+    z-index: 40;
+    max-width: 40px;
+    filter: grayscale(60%);
+    -webkit-animation-duration: 116.6666666667s;
+    animation-duration: 116.6666666667s;
+    -webkit-animation-delay: -17.2s;
+    animation-delay: -17.2s;
+}
+
+.blur .lantern-172 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-172 {
+        max-width: 20px;
+    }
+}
+
+.lantern-173 {
+    top: 166.4360422669%;
+    left: 31.0722483048%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -17.3s;
+    animation-delay: -17.3s;
+}
+
+.blur .lantern-173 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-173 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-174 {
+    top: 118.1881967672%;
+    left: 77.4232942838%;
+    z-index: 31;
+    max-width: 31px;
+    filter: grayscale(69%);
+    -webkit-animation-duration: 124.1666666667s;
+    animation-duration: 124.1666666667s;
+    -webkit-animation-delay: -17.4s;
+    animation-delay: -17.4s;
+}
+
+.blur .lantern-174 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-174 {
+        max-width: 15.5px;
+    }
+}
+
+.lantern-175 {
+    top: 112.808909297%;
+    left: 38.9161638942%;
+    z-index: 107;
+    max-width: 107px;
+    filter: grayscale(7%);
+    -webkit-animation-duration: 60.8333333333s;
+    animation-duration: 60.8333333333s;
+    -webkit-animation-delay: -17.5s;
+    animation-delay: -17.5s;
+}
+
+.blur .lantern-175 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-175 {
+        max-width: 53.5px;
+    }
+}
+
+.lantern-176 {
+    top: 146.4850552784%;
+    left: 65.7984031668%;
+    z-index: 104;
+    max-width: 104px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 63.3333333333s;
+    animation-duration: 63.3333333333s;
+    -webkit-animation-delay: -17.6s;
+    animation-delay: -17.6s;
+}
+
+.blur .lantern-176 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-176 {
+        max-width: 52px;
+    }
+}
+
+.lantern-177 {
+    top: 130.4840291998%;
+    left: 83.7288204743%;
+    z-index: 108;
+    max-width: 108px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -webkit-animation-delay: -17.7s;
+    animation-delay: -17.7s;
+}
+
+.blur .lantern-177 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-177 {
+        max-width: 54px;
+    }
+}
+
+.lantern-178 {
+    top: 133.9973338046%;
+    left: 33.7233768215%;
+    z-index: 59;
+    max-width: 59px;
+    filter: grayscale(41%);
+    -webkit-animation-duration: 100.8333333333s;
+    animation-duration: 100.8333333333s;
+    -webkit-animation-delay: -17.8s;
+    animation-delay: -17.8s;
+}
+
+.blur .lantern-178 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-178 {
+        max-width: 29.5px;
+    }
+}
+
+.lantern-179 {
+    top: 134.611216611%;
+    left: 3.6334831943%;
+    z-index: 70;
+    max-width: 70px;
+    filter: grayscale(30%);
+    -webkit-animation-duration: 91.6666666667s;
+    animation-duration: 91.6666666667s;
+    -webkit-animation-delay: -17.9s;
+    animation-delay: -17.9s;
+}
+
+.blur .lantern-179 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-179 {
+        max-width: 35px;
+    }
+}
+
+.lantern-180 {
+    top: 163.0190560307%;
+    left: 17.9973934737%;
+    z-index: 21;
+    max-width: 21px;
+    filter: grayscale(79%);
+    -webkit-animation-duration: 132.5s;
+    animation-duration: 132.5s;
+    -webkit-animation-delay: -18s;
+    animation-delay: -18s;
+}
+
+.blur .lantern-180 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-180 {
+        max-width: 10.5px;
+    }
+}
+
+.lantern-181 {
+    top: 121.9952915271%;
+    left: 45.7680498721%;
+    z-index: 80;
+    max-width: 80px;
+    filter: grayscale(20%);
+    -webkit-animation-duration: 83.3333333333s;
+    animation-duration: 83.3333333333s;
+    -webkit-animation-delay: -18.1s;
+    animation-delay: -18.1s;
+}
+
+.blur .lantern-181 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-181 {
+        max-width: 40px;
+    }
+}
+
+.lantern-182 {
+    top: 134.6970948795%;
+    left: 72.9893173165%;
+    z-index: 48;
+    max-width: 48px;
+    filter: grayscale(52%);
+    -webkit-animation-duration: 110s;
+    animation-duration: 110s;
+    -webkit-animation-delay: -18.2s;
+    animation-delay: -18.2s;
+}
+
+.blur .lantern-182 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-182 {
+        max-width: 24px;
+    }
+}
+
+.lantern-183 {
+    top: 114.0790018482%;
+    left: 68.1226312921%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -18.3s;
+    animation-delay: -18.3s;
+}
+
+.blur .lantern-183 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-183 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-184 {
+    top: 174.0073135184%;
+    left: 9.7944255585%;
+    z-index: 89;
+    max-width: 89px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 75.8333333333s;
+    animation-duration: 75.8333333333s;
+    -webkit-animation-delay: -18.4s;
+    animation-delay: -18.4s;
+}
+
+.blur .lantern-184 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-184 {
+        max-width: 44.5px;
+    }
+}
+
+.lantern-185 {
+    top: 148.6632835234%;
+    left: 0.7565077102%;
+    z-index: 112;
+    max-width: 112px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 56.6666666667s;
+    animation-duration: 56.6666666667s;
+    -webkit-animation-delay: -18.5s;
+    animation-delay: -18.5s;
+}
+
+.blur .lantern-185 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-185 {
+        max-width: 56px;
+    }
+}
+
+.lantern-186 {
+    top: 136.9903367016%;
+    left: 86.1373867718%;
+    z-index: 108;
+    max-width: 108px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -webkit-animation-delay: -18.6s;
+    animation-delay: -18.6s;
+}
+
+.blur .lantern-186 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-186 {
+        max-width: 54px;
+    }
+}
+
+.lantern-187 {
+    top: 95.2339779586%;
+    left: 31.7768082719%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -18.7s;
+    animation-delay: -18.7s;
+}
+
+.blur .lantern-187 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-187 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-188 {
+    top: 140.2493797484%;
+    left: 51.0399210932%;
+    z-index: 71;
+    max-width: 71px;
+    filter: grayscale(29%);
+    -webkit-animation-duration: 90.8333333333s;
+    animation-duration: 90.8333333333s;
+    -webkit-animation-delay: -18.8s;
+    animation-delay: -18.8s;
+}
+
+.blur .lantern-188 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-188 {
+        max-width: 35.5px;
+    }
+}
+
+.lantern-189 {
+    top: 142.9387198737%;
+    left: 35.5568208675%;
+    z-index: 77;
+    max-width: 77px;
+    filter: grayscale(23%);
+    -webkit-animation-duration: 85.8333333333s;
+    animation-duration: 85.8333333333s;
+    -webkit-animation-delay: -18.9s;
+    animation-delay: -18.9s;
+}
+
+.blur .lantern-189 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-189 {
+        max-width: 38.5px;
+    }
+}
+
+.lantern-190 {
+    top: 110.3929174641%;
+    left: 19.5944966086%;
+    z-index: 90;
+    max-width: 90px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 75s;
+    animation-duration: 75s;
+    -webkit-animation-delay: -19s;
+    animation-delay: -19s;
+}
+
+.blur .lantern-190 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-190 {
+        max-width: 45px;
+    }
+}
+
+.lantern-191 {
+    top: 138.1901662176%;
+    left: 15.350436181%;
+    z-index: 90;
+    max-width: 90px;
+    filter: grayscale(10%);
+    -webkit-animation-duration: 75s;
+    animation-duration: 75s;
+    -webkit-animation-delay: -19.1s;
+    animation-delay: -19.1s;
+}
+
+.blur .lantern-191 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-191 {
+        max-width: 45px;
+    }
+}
+
+.lantern-192 {
+    top: 160.5890611857%;
+    left: 58.3784494478%;
+    z-index: 67;
+    max-width: 67px;
+    filter: grayscale(33%);
+    -webkit-animation-duration: 94.1666666667s;
+    animation-duration: 94.1666666667s;
+    -webkit-animation-delay: -19.2s;
+    animation-delay: -19.2s;
+}
+
+.blur .lantern-192 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-192 {
+        max-width: 33.5px;
+    }
+}
+
+.lantern-193 {
+    top: 154.5906623809%;
+    left: 32.5034146039%;
+    z-index: 83;
+    max-width: 83px;
+    filter: grayscale(17%);
+    -webkit-animation-duration: 80.8333333333s;
+    animation-duration: 80.8333333333s;
+    -webkit-animation-delay: -19.3s;
+    animation-delay: -19.3s;
+}
+
+.blur .lantern-193 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-193 {
+        max-width: 41.5px;
+    }
+}
+
+.lantern-194 {
+    top: 105.003958934%;
+    left: 66.7492244096%;
+    z-index: 36;
+    max-width: 36px;
+    filter: grayscale(64%);
+    -webkit-animation-duration: 120s;
+    animation-duration: 120s;
+    -webkit-animation-delay: -19.4s;
+    animation-delay: -19.4s;
+}
+
+.blur .lantern-194 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-194 {
+        max-width: 18px;
+    }
+}
+
+.lantern-195 {
+    top: 184.7448087969%;
+    left: 85.3555166566%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -19.5s;
+    animation-delay: -19.5s;
+}
+
+.blur .lantern-195 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-195 {
+        max-width: 13px;
+    }
+}
+
+.lantern-196 {
+    top: 120.3355091956%;
+    left: 65.0847689145%;
+    z-index: 108;
+    max-width: 108px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -webkit-animation-delay: -19.6s;
+    animation-delay: -19.6s;
+}
+
+.blur .lantern-196 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-196 {
+        max-width: 54px;
+    }
+}
+
+.lantern-197 {
+    top: 155.442230097%;
+    left: 49.692602639%;
+    z-index: 18;
+    max-width: 18px;
+    filter: grayscale(82%);
+    -webkit-animation-duration: 135s;
+    animation-duration: 135s;
+    -webkit-animation-delay: -19.7s;
+    animation-delay: -19.7s;
+}
+
+.blur .lantern-197 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-197 {
+        max-width: 9px;
+    }
+}
+
+.lantern-198 {
+    top: 123.8820432711%;
+    left: 44.0813382442%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -19.8s;
+    animation-delay: -19.8s;
+}
+
+.blur .lantern-198 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-198 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-199 {
+    top: 139.365140672%;
+    left: 64.0460597272%;
+    z-index: 76;
+    max-width: 76px;
+    filter: grayscale(24%);
+    -webkit-animation-duration: 86.6666666667s;
+    animation-duration: 86.6666666667s;
+    -webkit-animation-delay: -19.9s;
+    animation-delay: -19.9s;
+}
+
+.blur .lantern-199 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-199 {
+        max-width: 38px;
+    }
+}
+
+.lantern-200 {
+    top: 93.7686762031%;
+    left: 55.134923118%;
+    z-index: 70;
+    max-width: 70px;
+    filter: grayscale(30%);
+    -webkit-animation-duration: 91.6666666667s;
+    animation-duration: 91.6666666667s;
+    -webkit-animation-delay: -20s;
+    animation-delay: -20s;
+}
+
+.blur .lantern-200 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-200 {
+        max-width: 35px;
+    }
+}
+
+.lantern-201 {
+    top: 152.1429059742%;
+    left: 10.2813644118%;
+    z-index: 94;
+    max-width: 94px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 71.6666666667s;
+    animation-duration: 71.6666666667s;
+    -webkit-animation-delay: -20.1s;
+    animation-delay: -20.1s;
+}
+
+.blur .lantern-201 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-201 {
+        max-width: 47px;
+    }
+}
+
+.lantern-202 {
+    top: 144.1966358754%;
+    left: 51.57033485%;
+    z-index: 77;
+    max-width: 77px;
+    filter: grayscale(23%);
+    -webkit-animation-duration: 85.8333333333s;
+    animation-duration: 85.8333333333s;
+    -webkit-animation-delay: -20.2s;
+    animation-delay: -20.2s;
+}
+
+.blur .lantern-202 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-202 {
+        max-width: 38.5px;
+    }
+}
+
+.lantern-203 {
+    top: 165.7975508226%;
+    left: 82.9532783823%;
+    z-index: 42;
+    max-width: 42px;
+    filter: grayscale(58%);
+    -webkit-animation-duration: 115s;
+    animation-duration: 115s;
+    -webkit-animation-delay: -20.3s;
+    animation-delay: -20.3s;
+}
+
+.blur .lantern-203 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-203 {
+        max-width: 21px;
+    }
+}
+
+.lantern-204 {
+    top: 92.8064490357%;
+    left: 43.1757383123%;
+    z-index: 100;
+    max-width: 100px;
+    filter: grayscale(0%);
+    -webkit-animation-duration: 66.6666666667s;
+    animation-duration: 66.6666666667s;
+    -webkit-animation-delay: -20.4s;
+    animation-delay: -20.4s;
+}
+
+.blur .lantern-204 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-204 {
+        max-width: 50px;
+    }
+}
+
+.lantern-205 {
+    top: 123.9986499197%;
+    left: 79.6431758281%;
+    z-index: 98;
+    max-width: 98px;
+    filter: grayscale(2%);
+    -webkit-animation-duration: 68.3333333333s;
+    animation-duration: 68.3333333333s;
+    -webkit-animation-delay: -20.5s;
+    animation-delay: -20.5s;
+}
+
+.blur .lantern-205 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-205 {
+        max-width: 49px;
+    }
+}
+
+.lantern-206 {
+    top: 166.637066423%;
+    left: 15.8969779904%;
+    z-index: 74;
+    max-width: 74px;
+    filter: grayscale(26%);
+    -webkit-animation-duration: 88.3333333333s;
+    animation-duration: 88.3333333333s;
+    -webkit-animation-delay: -20.6s;
+    animation-delay: -20.6s;
+}
+
+.blur .lantern-206 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-206 {
+        max-width: 37px;
+    }
+}
+
+.lantern-207 {
+    top: 152.3218297012%;
+    left: 37.3113599043%;
+    z-index: 78;
+    max-width: 78px;
+    filter: grayscale(22%);
+    -webkit-animation-duration: 85s;
+    animation-duration: 85s;
+    -webkit-animation-delay: -20.7s;
+    animation-delay: -20.7s;
+}
+
+.blur .lantern-207 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-207 {
+        max-width: 39px;
+    }
+}
+
+.lantern-208 {
+    top: 122.4882240056%;
+    left: 7.8163686987%;
+    z-index: 79;
+    max-width: 79px;
+    filter: grayscale(21%);
+    -webkit-animation-duration: 84.1666666667s;
+    animation-duration: 84.1666666667s;
+    -webkit-animation-delay: -20.8s;
+    animation-delay: -20.8s;
+}
+
+.blur .lantern-208 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-208 {
+        max-width: 39.5px;
+    }
+}
+
+.lantern-209 {
+    top: 138.8406064841%;
+    left: 60.3844523326%;
+    z-index: 114;
+    max-width: 114px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 55s;
+    animation-duration: 55s;
+    -webkit-animation-delay: -20.9s;
+    animation-delay: -20.9s;
+}
+
+.blur .lantern-209 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-209 {
+        max-width: 57px;
+    }
+}
+
+.lantern-210 {
+    top: 101.2132080915%;
+    left: 71.2560965543%;
+    z-index: 35;
+    max-width: 35px;
+    filter: grayscale(65%);
+    -webkit-animation-duration: 120.8333333333s;
+    animation-duration: 120.8333333333s;
+    -webkit-animation-delay: -21s;
+    animation-delay: -21s;
+}
+
+.blur .lantern-210 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-210 {
+        max-width: 17.5px;
+    }
+}
+
+.lantern-211 {
+    top: 152.6664433961%;
+    left: 62.1809509754%;
+    z-index: 85;
+    max-width: 85px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 79.1666666667s;
+    animation-duration: 79.1666666667s;
+    -webkit-animation-delay: -21.1s;
+    animation-delay: -21.1s;
+}
+
+.blur .lantern-211 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-211 {
+        max-width: 42.5px;
+    }
+}
+
+.lantern-212 {
+    top: 143.0475587621%;
+    left: 16.7807470443%;
+    z-index: 20;
+    max-width: 20px;
+    filter: grayscale(80%);
+    -webkit-animation-duration: 133.3333333333s;
+    animation-duration: 133.3333333333s;
+    -webkit-animation-delay: -21.2s;
+    animation-delay: -21.2s;
+}
+
+.blur .lantern-212 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-212 {
+        max-width: 10px;
+    }
+}
+
+.lantern-213 {
+    top: 148.4924976101%;
+    left: 17.94891337%;
+    z-index: 37;
+    max-width: 37px;
+    filter: grayscale(63%);
+    -webkit-animation-duration: 119.1666666667s;
+    animation-duration: 119.1666666667s;
+    -webkit-animation-delay: -21.3s;
+    animation-delay: -21.3s;
+}
+
+.blur .lantern-213 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-213 {
+        max-width: 18.5px;
+    }
+}
+
+.lantern-214 {
+    top: 122.5786742832%;
+    left: 57.9121863766%;
+    z-index: 53;
+    max-width: 53px;
+    filter: grayscale(47%);
+    -webkit-animation-duration: 105.8333333333s;
+    animation-duration: 105.8333333333s;
+    -webkit-animation-delay: -21.4s;
+    animation-delay: -21.4s;
+}
+
+.blur .lantern-214 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-214 {
+        max-width: 26.5px;
+    }
+}
+
+.lantern-215 {
+    top: 165.0587145433%;
+    left: 40.0568177457%;
+    z-index: 91;
+    max-width: 91px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 74.1666666667s;
+    animation-duration: 74.1666666667s;
+    -webkit-animation-delay: -21.5s;
+    animation-delay: -21.5s;
+}
+
+.blur .lantern-215 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-215 {
+        max-width: 45.5px;
+    }
+}
+
+.lantern-216 {
+    top: 97.8550472088%;
+    left: 17.994192604%;
+    z-index: 91;
+    max-width: 91px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 74.1666666667s;
+    animation-duration: 74.1666666667s;
+    -webkit-animation-delay: -21.6s;
+    animation-delay: -21.6s;
+}
+
+.blur .lantern-216 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-216 {
+        max-width: 45.5px;
+    }
+}
+
+.lantern-217 {
+    top: 179.8203938949%;
+    left: 86.8894067831%;
+    z-index: 85;
+    max-width: 85px;
+    filter: grayscale(15%);
+    -webkit-animation-duration: 79.1666666667s;
+    animation-duration: 79.1666666667s;
+    -webkit-animation-delay: -21.7s;
+    animation-delay: -21.7s;
+}
+
+.blur .lantern-217 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-217 {
+        max-width: 42.5px;
+    }
+}
+
+.lantern-218 {
+    top: 136.7446433841%;
+    left: 82.8748757757%;
+    z-index: 55;
+    max-width: 55px;
+    filter: grayscale(45%);
+    -webkit-animation-duration: 104.1666666667s;
+    animation-duration: 104.1666666667s;
+    -webkit-animation-delay: -21.8s;
+    animation-delay: -21.8s;
+}
+
+.blur .lantern-218 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-218 {
+        max-width: 27.5px;
+    }
+}
+
+.lantern-219 {
+    top: 93.0281977608%;
+    left: 10.7166917686%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -21.9s;
+    animation-delay: -21.9s;
+}
+
+.blur .lantern-219 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-219 {
+        max-width: 29px;
+    }
+}
+
+.lantern-220 {
+    top: 188.7213183013%;
+    left: 38.0880057111%;
+    z-index: 105;
+    max-width: 105px;
+    filter: grayscale(5%);
+    -webkit-animation-duration: 62.5s;
+    animation-duration: 62.5s;
+    -webkit-animation-delay: -22s;
+    animation-delay: -22s;
+}
+
+.blur .lantern-220 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-220 {
+        max-width: 52.5px;
+    }
+}
+
+.lantern-221 {
+    top: 93.1722675715%;
+    left: 1.4447542149%;
+    z-index: 94;
+    max-width: 94px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 71.6666666667s;
+    animation-duration: 71.6666666667s;
+    -webkit-animation-delay: -22.1s;
+    animation-delay: -22.1s;
+}
+
+.blur .lantern-221 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-221 {
+        max-width: 47px;
+    }
+}
+
+.lantern-222 {
+    top: 140.531348001%;
+    left: 69.2233699976%;
+    z-index: 73;
+    max-width: 73px;
+    filter: grayscale(27%);
+    -webkit-animation-duration: 89.1666666667s;
+    animation-duration: 89.1666666667s;
+    -webkit-animation-delay: -22.2s;
+    animation-delay: -22.2s;
+}
+
+.blur .lantern-222 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-222 {
+        max-width: 36.5px;
+    }
+}
+
+.lantern-223 {
+    top: 108.4042170017%;
+    left: 28.3400873541%;
+    z-index: 80;
+    max-width: 80px;
+    filter: grayscale(20%);
+    -webkit-animation-duration: 83.3333333333s;
+    animation-duration: 83.3333333333s;
+    -webkit-animation-delay: -22.3s;
+    animation-delay: -22.3s;
+}
+
+.blur .lantern-223 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-223 {
+        max-width: 40px;
+    }
+}
+
+.lantern-224 {
+    top: 158.5409491718%;
+    left: 55.70381628%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -22.4s;
+    animation-delay: -22.4s;
+}
+
+.blur .lantern-224 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-224 {
+        max-width: 17px;
+    }
+}
+
+.lantern-225 {
+    top: 114.3636306097%;
+    left: 53.6679851916%;
+    z-index: 89;
+    max-width: 89px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 75.8333333333s;
+    animation-duration: 75.8333333333s;
+    -webkit-animation-delay: -22.5s;
+    animation-delay: -22.5s;
+}
+
+.blur .lantern-225 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-225 {
+        max-width: 44.5px;
+    }
+}
+
+.lantern-226 {
+    top: 130.8056310525%;
+    left: 86.1287650997%;
+    z-index: 76;
+    max-width: 76px;
+    filter: grayscale(24%);
+    -webkit-animation-duration: 86.6666666667s;
+    animation-duration: 86.6666666667s;
+    -webkit-animation-delay: -22.6s;
+    animation-delay: -22.6s;
+}
+
+.blur .lantern-226 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-226 {
+        max-width: 38px;
+    }
+}
+
+.lantern-227 {
+    top: 155.8930211363%;
+    left: 47.7320139254%;
+    z-index: 57;
+    max-width: 57px;
+    filter: grayscale(43%);
+    -webkit-animation-duration: 102.5s;
+    animation-duration: 102.5s;
+    -webkit-animation-delay: -22.7s;
+    animation-delay: -22.7s;
+}
+
+.blur .lantern-227 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-227 {
+        max-width: 28.5px;
+    }
+}
+
+.lantern-228 {
+    top: 117.1053252533%;
+    left: 87.3278761787%;
+    z-index: 18;
+    max-width: 18px;
+    filter: grayscale(82%);
+    -webkit-animation-duration: 135s;
+    animation-duration: 135s;
+    -webkit-animation-delay: -22.8s;
+    animation-delay: -22.8s;
+}
+
+.blur .lantern-228 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-228 {
+        max-width: 9px;
+    }
+}
+
+.lantern-229 {
+    top: 165.6712457173%;
+    left: 70.4192557323%;
+    z-index: 27;
+    max-width: 27px;
+    filter: grayscale(73%);
+    -webkit-animation-duration: 127.5s;
+    animation-duration: 127.5s;
+    -webkit-animation-delay: -22.9s;
+    animation-delay: -22.9s;
+}
+
+.blur .lantern-229 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-229 {
+        max-width: 13.5px;
+    }
+}
+
+.lantern-230 {
+    top: 177.7647214885%;
+    left: 82.4525388909%;
+    z-index: 64;
+    max-width: 64px;
+    filter: grayscale(36%);
+    -webkit-animation-duration: 96.6666666667s;
+    animation-duration: 96.6666666667s;
+    -webkit-animation-delay: -23s;
+    animation-delay: -23s;
+}
+
+.blur .lantern-230 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-230 {
+        max-width: 32px;
+    }
+}
+
+.lantern-231 {
+    top: 138.7898067099%;
+    left: 23.8351277418%;
+    z-index: 55;
+    max-width: 55px;
+    filter: grayscale(45%);
+    -webkit-animation-duration: 104.1666666667s;
+    animation-duration: 104.1666666667s;
+    -webkit-animation-delay: -23.1s;
+    animation-delay: -23.1s;
+}
+
+.blur .lantern-231 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-231 {
+        max-width: 27.5px;
+    }
+}
+
+.lantern-232 {
+    top: 105.2792141814%;
+    left: 29.8790955459%;
+    z-index: 58;
+    max-width: 58px;
+    filter: grayscale(42%);
+    -webkit-animation-duration: 101.6666666667s;
+    animation-duration: 101.6666666667s;
+    -webkit-animation-delay: -23.2s;
+    animation-delay: -23.2s;
+}
+
+.blur .lantern-232 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-232 {
+        max-width: 29px;
+    }
+}
+
+.lantern-233 {
+    top: 127.8908695846%;
+    left: 24.0346469599%;
+    z-index: 94;
+    max-width: 94px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 71.6666666667s;
+    animation-duration: 71.6666666667s;
+    -webkit-animation-delay: -23.3s;
+    animation-delay: -23.3s;
+}
+
+.blur .lantern-233 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-233 {
+        max-width: 47px;
+    }
+}
+
+.lantern-234 {
+    top: 106.1919627974%;
+    left: 22.2546387699%;
+    z-index: 27;
+    max-width: 27px;
+    filter: grayscale(73%);
+    -webkit-animation-duration: 127.5s;
+    animation-duration: 127.5s;
+    -webkit-animation-delay: -23.4s;
+    animation-delay: -23.4s;
+}
+
+.blur .lantern-234 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-234 {
+        max-width: 13.5px;
+    }
+}
+
+.lantern-235 {
+    top: 90.8562295368%;
+    left: 42.9596973458%;
+    z-index: 109;
+    max-width: 109px;
+    filter: grayscale(9%);
+    -webkit-animation-duration: 59.1666666667s;
+    animation-duration: 59.1666666667s;
+    -webkit-animation-delay: -23.5s;
+    animation-delay: -23.5s;
+}
+
+.blur .lantern-235 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-235 {
+        max-width: 54.5px;
+    }
+}
+
+.lantern-236 {
+    top: 171.8066609463%;
+    left: 26.5600704186%;
+    z-index: 71;
+    max-width: 71px;
+    filter: grayscale(29%);
+    -webkit-animation-duration: 90.8333333333s;
+    animation-duration: 90.8333333333s;
+    -webkit-animation-delay: -23.6s;
+    animation-delay: -23.6s;
+}
+
+.blur .lantern-236 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-236 {
+        max-width: 35.5px;
+    }
+}
+
+.lantern-237 {
+    top: 159.3552920209%;
+    left: 66.2785812022%;
+    z-index: 96;
+    max-width: 96px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 70s;
+    animation-duration: 70s;
+    -webkit-animation-delay: -23.7s;
+    animation-delay: -23.7s;
+}
+
+.blur .lantern-237 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-237 {
+        max-width: 48px;
+    }
+}
+
+.lantern-238 {
+    top: 143.9289777049%;
+    left: 58.8297227509%;
+    z-index: 78;
+    max-width: 78px;
+    filter: grayscale(22%);
+    -webkit-animation-duration: 85s;
+    animation-duration: 85s;
+    -webkit-animation-delay: -23.8s;
+    animation-delay: -23.8s;
+}
+
+.blur .lantern-238 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-238 {
+        max-width: 39px;
+    }
+}
+
+.lantern-239 {
+    top: 129.1721951742%;
+    left: 55.5288247627%;
+    z-index: 93;
+    max-width: 93px;
+    filter: grayscale(7%);
+    -webkit-animation-duration: 72.5s;
+    animation-duration: 72.5s;
+    -webkit-animation-delay: -23.9s;
+    animation-delay: -23.9s;
+}
+
+.blur .lantern-239 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-239 {
+        max-width: 46.5px;
+    }
+}
+
+.lantern-240 {
+    top: 183.1325170992%;
+    left: 30.673548393%;
+    z-index: 42;
+    max-width: 42px;
+    filter: grayscale(58%);
+    -webkit-animation-duration: 115s;
+    animation-duration: 115s;
+    -webkit-animation-delay: -24s;
+    animation-delay: -24s;
+}
+
+.blur .lantern-240 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-240 {
+        max-width: 21px;
+    }
+}
+
+.lantern-241 {
+    top: 147.3305855018%;
+    left: 8.963199754%;
+    z-index: 104;
+    max-width: 104px;
+    filter: grayscale(4%);
+    -webkit-animation-duration: 63.3333333333s;
+    animation-duration: 63.3333333333s;
+    -webkit-animation-delay: -24.1s;
+    animation-delay: -24.1s;
+}
+
+.blur .lantern-241 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-241 {
+        max-width: 52px;
+    }
+}
+
+.lantern-242 {
+    top: 94.9334458888%;
+    left: 58.2791256758%;
+    z-index: 71;
+    max-width: 71px;
+    filter: grayscale(29%);
+    -webkit-animation-duration: 90.8333333333s;
+    animation-duration: 90.8333333333s;
+    -webkit-animation-delay: -24.2s;
+    animation-delay: -24.2s;
+}
+
+.blur .lantern-242 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-242 {
+        max-width: 35.5px;
+    }
+}
+
+.lantern-243 {
+    top: 152.5525374855%;
+    left: 73.903918545%;
+    z-index: 50;
+    max-width: 50px;
+    filter: grayscale(50%);
+    -webkit-animation-duration: 108.3333333333s;
+    animation-duration: 108.3333333333s;
+    -webkit-animation-delay: -24.3s;
+    animation-delay: -24.3s;
+}
+
+.blur .lantern-243 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-243 {
+        max-width: 25px;
+    }
+}
+
+.lantern-244 {
+    top: 152.1834190091%;
+    left: 15.4241347145%;
+    z-index: 32;
+    max-width: 32px;
+    filter: grayscale(68%);
+    -webkit-animation-duration: 123.3333333333s;
+    animation-duration: 123.3333333333s;
+    -webkit-animation-delay: -24.4s;
+    animation-delay: -24.4s;
+}
+
+.blur .lantern-244 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-244 {
+        max-width: 16px;
+    }
+}
+
+.lantern-245 {
+    top: 186.6351132844%;
+    left: 32.1910761271%;
+    z-index: 47;
+    max-width: 47px;
+    filter: grayscale(53%);
+    -webkit-animation-duration: 110.8333333333s;
+    animation-duration: 110.8333333333s;
+    -webkit-animation-delay: -24.5s;
+    animation-delay: -24.5s;
+}
+
+.blur .lantern-245 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-245 {
+        max-width: 23.5px;
+    }
+}
+
+.lantern-246 {
+    top: 183.4961265015%;
+    left: 70.5397718411%;
+    z-index: 88;
+    max-width: 88px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 76.6666666667s;
+    animation-duration: 76.6666666667s;
+    -webkit-animation-delay: -24.6s;
+    animation-delay: -24.6s;
+}
+
+.blur .lantern-246 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-246 {
+        max-width: 44px;
+    }
+}
+
+.lantern-247 {
+    top: 173.5882933036%;
+    left: 11.8591455679%;
+    z-index: 56;
+    max-width: 56px;
+    filter: grayscale(44%);
+    -webkit-animation-duration: 103.3333333333s;
+    animation-duration: 103.3333333333s;
+    -webkit-animation-delay: -24.7s;
+    animation-delay: -24.7s;
+}
+
+.blur .lantern-247 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-247 {
+        max-width: 28px;
+    }
+}
+
+.lantern-248 {
+    top: 148.2950790738%;
+    left: 67.836358727%;
+    z-index: 88;
+    max-width: 88px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 76.6666666667s;
+    animation-duration: 76.6666666667s;
+    -webkit-animation-delay: -24.8s;
+    animation-delay: -24.8s;
+}
+
+.blur .lantern-248 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-248 {
+        max-width: 44px;
+    }
+}
+
+.lantern-249 {
+    top: 182.9797961202%;
+    left: 39.4068335905%;
+    z-index: 65;
+    max-width: 65px;
+    filter: grayscale(35%);
+    -webkit-animation-duration: 95.8333333333s;
+    animation-duration: 95.8333333333s;
+    -webkit-animation-delay: -24.9s;
+    animation-delay: -24.9s;
+}
+
+.blur .lantern-249 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-249 {
+        max-width: 32.5px;
+    }
+}
+
+.lantern-250 {
+    top: 185.5419510685%;
+    left: 25.1093123367%;
+    z-index: 31;
+    max-width: 31px;
+    filter: grayscale(69%);
+    -webkit-animation-duration: 124.1666666667s;
+    animation-duration: 124.1666666667s;
+    -webkit-animation-delay: -25s;
+    animation-delay: -25s;
+}
+
+.blur .lantern-250 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-250 {
+        max-width: 15.5px;
+    }
+}
+
+.lantern-251 {
+    top: 183.5014613977%;
+    left: 38.2899461544%;
+    z-index: 97;
+    max-width: 97px;
+    filter: grayscale(3%);
+    -webkit-animation-duration: 69.1666666667s;
+    animation-duration: 69.1666666667s;
+    -webkit-animation-delay: -25.1s;
+    animation-delay: -25.1s;
+}
+
+.blur .lantern-251 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-251 {
+        max-width: 48.5px;
+    }
+}
+
+.lantern-252 {
+    top: 140.4461337633%;
+    left: 56.1832214553%;
+    z-index: 76;
+    max-width: 76px;
+    filter: grayscale(24%);
+    -webkit-animation-duration: 86.6666666667s;
+    animation-duration: 86.6666666667s;
+    -webkit-animation-delay: -25.2s;
+    animation-delay: -25.2s;
+}
+
+.blur .lantern-252 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-252 {
+        max-width: 38px;
+    }
+}
+
+.lantern-253 {
+    top: 154.6474404979%;
+    left: 7.1311390548%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -25.3s;
+    animation-delay: -25.3s;
+}
+
+.blur .lantern-253 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-253 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-254 {
+    top: 147.6360868006%;
+    left: 65.4101136135%;
+    z-index: 41;
+    max-width: 41px;
+    filter: grayscale(59%);
+    -webkit-animation-duration: 115.8333333333s;
+    animation-duration: 115.8333333333s;
+    -webkit-animation-delay: -25.4s;
+    animation-delay: -25.4s;
+}
+
+.blur .lantern-254 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-254 {
+        max-width: 20.5px;
+    }
+}
+
+.lantern-255 {
+    top: 177.5540582242%;
+    left: 57.3635289866%;
+    z-index: 39;
+    max-width: 39px;
+    filter: grayscale(61%);
+    -webkit-animation-duration: 117.5s;
+    animation-duration: 117.5s;
+    -webkit-animation-delay: -25.5s;
+    animation-delay: -25.5s;
+}
+
+.blur .lantern-255 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-255 {
+        max-width: 19.5px;
+    }
+}
+
+.lantern-256 {
+    top: 183.017297529%;
+    left: 67.4303030064%;
+    z-index: 30;
+    max-width: 30px;
+    filter: grayscale(70%);
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
+    -webkit-animation-delay: -25.6s;
+    animation-delay: -25.6s;
+}
+
+.blur .lantern-256 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-256 {
+        max-width: 15px;
+    }
+}
+
+.lantern-257 {
+    top: 138.5480655772%;
+    left: 1.416137566%;
+    z-index: 111;
+    max-width: 111px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 57.5s;
+    animation-duration: 57.5s;
+    -webkit-animation-delay: -25.7s;
+    animation-delay: -25.7s;
+}
+
+.blur .lantern-257 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-257 {
+        max-width: 55.5px;
+    }
+}
+
+.lantern-258 {
+    top: 150.9042991693%;
+    left: 82.6490864591%;
+    z-index: 100;
+    max-width: 100px;
+    filter: grayscale(0%);
+    -webkit-animation-duration: 66.6666666667s;
+    animation-duration: 66.6666666667s;
+    -webkit-animation-delay: -25.8s;
+    animation-delay: -25.8s;
+}
+
+.blur .lantern-258 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-258 {
+        max-width: 50px;
+    }
+}
+
+.lantern-259 {
+    top: 159.6785411493%;
+    left: 41.2491538489%;
+    z-index: 82;
+    max-width: 82px;
+    filter: grayscale(18%);
+    -webkit-animation-duration: 81.6666666667s;
+    animation-duration: 81.6666666667s;
+    -webkit-animation-delay: -25.9s;
+    animation-delay: -25.9s;
+}
+
+.blur .lantern-259 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-259 {
+        max-width: 41px;
+    }
+}
+
+.lantern-260 {
+    top: 126.7204684098%;
+    left: 40.6958184778%;
+    z-index: 71;
+    max-width: 71px;
+    filter: grayscale(29%);
+    -webkit-animation-duration: 90.8333333333s;
+    animation-duration: 90.8333333333s;
+    -webkit-animation-delay: -26s;
+    animation-delay: -26s;
+}
+
+.blur .lantern-260 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-260 {
+        max-width: 35.5px;
+    }
+}
+
+.lantern-261 {
+    top: 110.9282222453%;
+    left: 57.6533193854%;
+    z-index: 57;
+    max-width: 57px;
+    filter: grayscale(43%);
+    -webkit-animation-duration: 102.5s;
+    animation-duration: 102.5s;
+    -webkit-animation-delay: -26.1s;
+    animation-delay: -26.1s;
+}
+
+.blur .lantern-261 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-261 {
+        max-width: 28.5px;
+    }
+}
+
+.lantern-262 {
+    top: 132.0024476163%;
+    left: 81.3599470221%;
+    z-index: 62;
+    max-width: 62px;
+    filter: grayscale(38%);
+    -webkit-animation-duration: 98.3333333333s;
+    animation-duration: 98.3333333333s;
+    -webkit-animation-delay: -26.2s;
+    animation-delay: -26.2s;
+}
+
+.blur .lantern-262 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-262 {
+        max-width: 31px;
+    }
+}
+
+.lantern-263 {
+    top: 149.4061574584%;
+    left: 0.4098178776%;
+    z-index: 64;
+    max-width: 64px;
+    filter: grayscale(36%);
+    -webkit-animation-duration: 96.6666666667s;
+    animation-duration: 96.6666666667s;
+    -webkit-animation-delay: -26.3s;
+    animation-delay: -26.3s;
+}
+
+.blur .lantern-263 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-263 {
+        max-width: 32px;
+    }
+}
+
+.lantern-264 {
+    top: 176.3610341741%;
+    left: 62.8534899886%;
+    z-index: 89;
+    max-width: 89px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 75.8333333333s;
+    animation-duration: 75.8333333333s;
+    -webkit-animation-delay: -26.4s;
+    animation-delay: -26.4s;
+}
+
+.blur .lantern-264 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-264 {
+        max-width: 44.5px;
+    }
+}
+
+.lantern-265 {
+    top: 186.3352387715%;
+    left: 55.0419579194%;
+    z-index: 94;
+    max-width: 94px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 71.6666666667s;
+    animation-duration: 71.6666666667s;
+    -webkit-animation-delay: -26.5s;
+    animation-delay: -26.5s;
+}
+
+.blur .lantern-265 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-265 {
+        max-width: 47px;
+    }
+}
+
+.lantern-266 {
+    top: 158.8482742606%;
+    left: 26.3984651037%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -26.6s;
+    animation-delay: -26.6s;
+}
+
+.blur .lantern-266 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-266 {
+        max-width: 13px;
+    }
+}
+
+.lantern-267 {
+    top: 184.8124101611%;
+    left: 19.040463764%;
+    z-index: 27;
+    max-width: 27px;
+    filter: grayscale(73%);
+    -webkit-animation-duration: 127.5s;
+    animation-duration: 127.5s;
+    -webkit-animation-delay: -26.7s;
+    animation-delay: -26.7s;
+}
+
+.blur .lantern-267 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-267 {
+        max-width: 13.5px;
+    }
+}
+
+.lantern-268 {
+    top: 147.4479795283%;
+    left: 64.9340534395%;
+    z-index: 108;
+    max-width: 108px;
+    filter: grayscale(8%);
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -webkit-animation-delay: -26.8s;
+    animation-delay: -26.8s;
+}
+
+.blur .lantern-268 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-268 {
+        max-width: 54px;
+    }
+}
+
+.lantern-269 {
+    top: 166.5934346656%;
+    left: 82.9333688253%;
+    z-index: 29;
+    max-width: 29px;
+    filter: grayscale(71%);
+    -webkit-animation-duration: 125.8333333333s;
+    animation-duration: 125.8333333333s;
+    -webkit-animation-delay: -26.9s;
+    animation-delay: -26.9s;
+}
+
+.blur .lantern-269 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-269 {
+        max-width: 14.5px;
+    }
+}
+
+.lantern-270 {
+    top: 113.3007856791%;
+    left: 1.1902656413%;
+    z-index: 48;
+    max-width: 48px;
+    filter: grayscale(52%);
+    -webkit-animation-duration: 110s;
+    animation-duration: 110s;
+    -webkit-animation-delay: -27s;
+    animation-delay: -27s;
+}
+
+.blur .lantern-270 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-270 {
+        max-width: 24px;
+    }
+}
+
+.lantern-271 {
+    top: 179.2512266288%;
+    left: 31.110397624%;
+    z-index: 86;
+    max-width: 86px;
+    filter: grayscale(14%);
+    -webkit-animation-duration: 78.3333333333s;
+    animation-duration: 78.3333333333s;
+    -webkit-animation-delay: -27.1s;
+    animation-delay: -27.1s;
+}
+
+.blur .lantern-271 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-271 {
+        max-width: 43px;
+    }
+}
+
+.lantern-272 {
+    top: 99.6618770815%;
+    left: 9.0304394713%;
+    z-index: 48;
+    max-width: 48px;
+    filter: grayscale(52%);
+    -webkit-animation-duration: 110s;
+    animation-duration: 110s;
+    -webkit-animation-delay: -27.2s;
+    animation-delay: -27.2s;
+}
+
+.blur .lantern-272 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-272 {
+        max-width: 24px;
+    }
+}
+
+.lantern-273 {
+    top: 119.5003921228%;
+    left: 16.6794986382%;
+    z-index: 55;
+    max-width: 55px;
+    filter: grayscale(45%);
+    -webkit-animation-duration: 104.1666666667s;
+    animation-duration: 104.1666666667s;
+    -webkit-animation-delay: -27.3s;
+    animation-delay: -27.3s;
+}
+
+.blur .lantern-273 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-273 {
+        max-width: 27.5px;
+    }
+}
+
+.lantern-274 {
+    top: 187.1646133345%;
+    left: 20.726517537%;
+    z-index: 50;
+    max-width: 50px;
+    filter: grayscale(50%);
+    -webkit-animation-duration: 108.3333333333s;
+    animation-duration: 108.3333333333s;
+    -webkit-animation-delay: -27.4s;
+    animation-delay: -27.4s;
+}
+
+.blur .lantern-274 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-274 {
+        max-width: 25px;
+    }
+}
+
+.lantern-275 {
+    top: 158.5843681105%;
+    left: 9.9488912844%;
+    z-index: 38;
+    max-width: 38px;
+    filter: grayscale(62%);
+    -webkit-animation-duration: 118.3333333333s;
+    animation-duration: 118.3333333333s;
+    -webkit-animation-delay: -27.5s;
+    animation-delay: -27.5s;
+}
+
+.blur .lantern-275 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-275 {
+        max-width: 19px;
+    }
+}
+
+.lantern-276 {
+    top: 161.4191585494%;
+    left: 77.2836424744%;
+    z-index: 73;
+    max-width: 73px;
+    filter: grayscale(27%);
+    -webkit-animation-duration: 89.1666666667s;
+    animation-duration: 89.1666666667s;
+    -webkit-animation-delay: -27.6s;
+    animation-delay: -27.6s;
+}
+
+.blur .lantern-276 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-276 {
+        max-width: 36.5px;
+    }
+}
+
+.lantern-277 {
+    top: 159.1515994476%;
+    left: 89.3693770768%;
+    z-index: 33;
+    max-width: 33px;
+    filter: grayscale(67%);
+    -webkit-animation-duration: 122.5s;
+    animation-duration: 122.5s;
+    -webkit-animation-delay: -27.7s;
+    animation-delay: -27.7s;
+}
+
+.blur .lantern-277 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-277 {
+        max-width: 16.5px;
+    }
+}
+
+.lantern-278 {
+    top: 171.2913088818%;
+    left: 18.313530132%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -27.8s;
+    animation-delay: -27.8s;
+}
+
+.blur .lantern-278 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-278 {
+        max-width: 17px;
+    }
+}
+
+.lantern-279 {
+    top: 156.5477272383%;
+    left: 9.9951076588%;
+    z-index: 40;
+    max-width: 40px;
+    filter: grayscale(60%);
+    -webkit-animation-duration: 116.6666666667s;
+    animation-duration: 116.6666666667s;
+    -webkit-animation-delay: -27.9s;
+    animation-delay: -27.9s;
+}
+
+.blur .lantern-279 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-279 {
+        max-width: 20px;
+    }
+}
+
+.lantern-280 {
+    top: 92.1536239557%;
+    left: 43.600363183%;
+    z-index: 57;
+    max-width: 57px;
+    filter: grayscale(43%);
+    -webkit-animation-duration: 102.5s;
+    animation-duration: 102.5s;
+    -webkit-animation-delay: -28s;
+    animation-delay: -28s;
+}
+
+.blur .lantern-280 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-280 {
+        max-width: 28.5px;
+    }
+}
+
+.lantern-281 {
+    top: 106.9945046451%;
+    left: 80.7087901117%;
+    z-index: 89;
+    max-width: 89px;
+    filter: grayscale(11%);
+    -webkit-animation-duration: 75.8333333333s;
+    animation-duration: 75.8333333333s;
+    -webkit-animation-delay: -28.1s;
+    animation-delay: -28.1s;
+}
+
+.blur .lantern-281 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-281 {
+        max-width: 44.5px;
+    }
+}
+
+.lantern-282 {
+    top: 148.7798016729%;
+    left: 46.0664519506%;
+    z-index: 49;
+    max-width: 49px;
+    filter: grayscale(51%);
+    -webkit-animation-duration: 109.1666666667s;
+    animation-duration: 109.1666666667s;
+    -webkit-animation-delay: -28.2s;
+    animation-delay: -28.2s;
+}
+
+.blur .lantern-282 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-282 {
+        max-width: 24.5px;
+    }
+}
+
+.lantern-283 {
+    top: 147.4739090629%;
+    left: 51.3752807059%;
+    z-index: 94;
+    max-width: 94px;
+    filter: grayscale(6%);
+    -webkit-animation-duration: 71.6666666667s;
+    animation-duration: 71.6666666667s;
+    -webkit-animation-delay: -28.3s;
+    animation-delay: -28.3s;
+}
+
+.blur .lantern-283 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-283 {
+        max-width: 47px;
+    }
+}
+
+.lantern-284 {
+    top: 156.6332894315%;
+    left: 35.6889188413%;
+    z-index: 20;
+    max-width: 20px;
+    filter: grayscale(80%);
+    -webkit-animation-duration: 133.3333333333s;
+    animation-duration: 133.3333333333s;
+    -webkit-animation-delay: -28.4s;
+    animation-delay: -28.4s;
+}
+
+.blur .lantern-284 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-284 {
+        max-width: 10px;
+    }
+}
+
+.lantern-285 {
+    top: 129.9815040756%;
+    left: 12.4930172727%;
+    z-index: 100;
+    max-width: 100px;
+    filter: grayscale(0%);
+    -webkit-animation-duration: 66.6666666667s;
+    animation-duration: 66.6666666667s;
+    -webkit-animation-delay: -28.5s;
+    animation-delay: -28.5s;
+}
+
+.blur .lantern-285 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-285 {
+        max-width: 50px;
+    }
+}
+
+.lantern-286 {
+    top: 93.123476719%;
+    left: 77.4295821947%;
+    z-index: 101;
+    max-width: 101px;
+    filter: grayscale(1%);
+    -webkit-animation-duration: 65.8333333333s;
+    animation-duration: 65.8333333333s;
+    -webkit-animation-delay: -28.6s;
+    animation-delay: -28.6s;
+}
+
+.blur .lantern-286 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-286 {
+        max-width: 50.5px;
+    }
+}
+
+.lantern-287 {
+    top: 101.0379382489%;
+    left: 6.3931220938%;
+    z-index: 87;
+    max-width: 87px;
+    filter: grayscale(13%);
+    -webkit-animation-duration: 77.5s;
+    animation-duration: 77.5s;
+    -webkit-animation-delay: -28.7s;
+    animation-delay: -28.7s;
+}
+
+.blur .lantern-287 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-287 {
+        max-width: 43.5px;
+    }
+}
+
+.lantern-288 {
+    top: 95.177789576%;
+    left: 25.175413078%;
+    z-index: 51;
+    max-width: 51px;
+    filter: grayscale(49%);
+    -webkit-animation-duration: 107.5s;
+    animation-duration: 107.5s;
+    -webkit-animation-delay: -28.8s;
+    animation-delay: -28.8s;
+}
+
+.blur .lantern-288 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-288 {
+        max-width: 25.5px;
+    }
+}
+
+.lantern-289 {
+    top: 137.8370370424%;
+    left: 3.750969381%;
+    z-index: 34;
+    max-width: 34px;
+    filter: grayscale(66%);
+    -webkit-animation-duration: 121.6666666667s;
+    animation-duration: 121.6666666667s;
+    -webkit-animation-delay: -28.9s;
+    animation-delay: -28.9s;
+}
+
+.blur .lantern-289 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-289 {
+        max-width: 17px;
+    }
+}
+
+.lantern-290 {
+    top: 178.5054168581%;
+    left: 50.1646765614%;
+    z-index: 84;
+    max-width: 84px;
+    filter: grayscale(16%);
+    -webkit-animation-duration: 80s;
+    animation-duration: 80s;
+    -webkit-animation-delay: -29s;
+    animation-delay: -29s;
+}
+
+.blur .lantern-290 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-290 {
+        max-width: 42px;
+    }
+}
+
+.lantern-291 {
+    top: 104.9799894746%;
+    left: 53.7679079565%;
+    z-index: 22;
+    max-width: 22px;
+    filter: grayscale(78%);
+    -webkit-animation-duration: 131.6666666667s;
+    animation-duration: 131.6666666667s;
+    -webkit-animation-delay: -29.1s;
+    animation-delay: -29.1s;
+}
+
+.blur .lantern-291 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-291 {
+        max-width: 11px;
+    }
+}
+
+.lantern-292 {
+    top: 110.3939786277%;
+    left: 87.6698754315%;
+    z-index: 39;
+    max-width: 39px;
+    filter: grayscale(61%);
+    -webkit-animation-duration: 117.5s;
+    animation-duration: 117.5s;
+    -webkit-animation-delay: -29.2s;
+    animation-delay: -29.2s;
+}
+
+.blur .lantern-292 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-292 {
+        max-width: 19.5px;
+    }
+}
+
+.lantern-293 {
+    top: 178.4279256344%;
+    left: 79.8262392013%;
+    z-index: 102;
+    max-width: 102px;
+    filter: grayscale(2%);
+    -webkit-animation-duration: 65s;
+    animation-duration: 65s;
+    -webkit-animation-delay: -29.3s;
+    animation-delay: -29.3s;
+}
+
+.blur .lantern-293 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-293 {
+        max-width: 51px;
+    }
+}
+
+.lantern-294 {
+    top: 144.3820521617%;
+    left: 51.9926440984%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -29.4s;
+    animation-delay: -29.4s;
+}
+
+.blur .lantern-294 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-294 {
+        max-width: 13px;
+    }
+}
+
+.lantern-295 {
+    top: 168.8613250202%;
+    left: 73.0816065348%;
+    z-index: 80;
+    max-width: 80px;
+    filter: grayscale(20%);
+    -webkit-animation-duration: 83.3333333333s;
+    animation-duration: 83.3333333333s;
+    -webkit-animation-delay: -29.5s;
+    animation-delay: -29.5s;
+}
+
+.blur .lantern-295 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-295 {
+        max-width: 40px;
+    }
+}
+
+.lantern-296 {
+    top: 153.0556122413%;
+    left: 28.8790356005%;
+    z-index: 97;
+    max-width: 97px;
+    filter: grayscale(3%);
+    -webkit-animation-duration: 69.1666666667s;
+    animation-duration: 69.1666666667s;
+    -webkit-animation-delay: -29.6s;
+    animation-delay: -29.6s;
+}
+
+.blur .lantern-296 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-296 {
+        max-width: 48.5px;
+    }
+}
+
+.lantern-297 {
+    top: 139.0222591773%;
+    left: 9.4447771119%;
+    z-index: 88;
+    max-width: 88px;
+    filter: grayscale(12%);
+    -webkit-animation-duration: 76.6666666667s;
+    animation-duration: 76.6666666667s;
+    -webkit-animation-delay: -29.7s;
+    animation-delay: -29.7s;
+}
+
+.blur .lantern-297 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-297 {
+        max-width: 44px;
+    }
+}
+
+.lantern-298 {
+    top: 124.9142578395%;
+    left: 19.1489899316%;
+    z-index: 52;
+    max-width: 52px;
+    filter: grayscale(48%);
+    -webkit-animation-duration: 106.6666666667s;
+    animation-duration: 106.6666666667s;
+    -webkit-animation-delay: -29.8s;
+    animation-delay: -29.8s;
+}
+
+.blur .lantern-298 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-298 {
+        max-width: 26px;
+    }
+}
+
+.lantern-299 {
+    top: 98.3303202789%;
+    left: 51.9271636446%;
+    z-index: 24;
+    max-width: 24px;
+    filter: grayscale(76%);
+    -webkit-animation-duration: 130s;
+    animation-duration: 130s;
+    -webkit-animation-delay: -29.9s;
+    animation-delay: -29.9s;
+}
+
+.blur .lantern-299 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-299 {
+        max-width: 12px;
+    }
+}
+
+.lantern-300 {
+    top: 179.9203630837%;
+    left: 30.732574444%;
+    z-index: 26;
+    max-width: 26px;
+    filter: grayscale(74%);
+    -webkit-animation-duration: 128.3333333333s;
+    animation-duration: 128.3333333333s;
+    -webkit-animation-delay: -30s;
+    animation-delay: -30s;
+}
+
+.blur .lantern-300 {
+    filter: blur(7px);
+}
+
+@media screen and (max-width: 640px) {
+    .lantern-300 {
+        max-width: 13px;
+    }
+}
+
+@-webkit-keyframes cloud-move-left {
+    5% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes cloud-move-left {
+    5% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@-webkit-keyframes cloud-move-right {
+    5% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100vw) rotateY(180deg);
+    }
+}
+
+@keyframes cloud-move-right {
+    5% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100vw) rotateY(180deg);
+    }
+}
+
+.cloud-wrap .cloud {
+    position: absolute;
+    opacity: 0;
+}
+
+.cloud-wrap .cloud:nth-of-type(odd) {
+    -webkit-animation: cloud-move-left linear infinite;
+    animation: cloud-move-left linear infinite;
+}
+
+.cloud-wrap .cloud:nth-of-type(even) {
+    transform: translateX(100vw) rotateY(180deg);
+    -webkit-animation: cloud-move-right ease-in-out;
+    animation: cloud-move-right ease-in-out;
+}
+
+.cloud-wrap .cloud.cloud-1 {
+    top: 50.6248385807%;
+    z-index: 5;
+    max-width: 56px;
+    -webkit-animation-duration: 105s;
+    animation-duration: 105s;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-1 {
+        max-width: 3px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-2 {
+    top: 48.6716625389%;
+    z-index: 17;
+    max-width: 129px;
+    -webkit-animation-duration: 117s;
+    animation-duration: 117s;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-2 {
+        max-width: 39.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-3 {
+    top: 46.3029444717%;
+    z-index: 18;
+    max-width: 75px;
+    -webkit-animation-duration: 118s;
+    animation-duration: 118s;
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-3 {
+        max-width: 12.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-4 {
+    top: 45.2917227606%;
+    z-index: 24;
+    max-width: 104px;
+    -webkit-animation-duration: 124s;
+    animation-duration: 124s;
+    -webkit-animation-delay: 20s;
+    animation-delay: 20s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-4 {
+        max-width: 27px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-5 {
+    top: 41.5960379975%;
+    z-index: 30;
+    max-width: 139px;
+    -webkit-animation-duration: 130s;
+    animation-duration: 130s;
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-5 {
+        max-width: 44.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-6 {
+    top: 51.138936909%;
+    z-index: 10;
+    max-width: 81px;
+    -webkit-animation-duration: 110s;
+    animation-duration: 110s;
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-6 {
+        max-width: 15.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-7 {
+    top: 47.0665143604%;
+    z-index: 13;
+    max-width: 102px;
+    -webkit-animation-duration: 113s;
+    animation-duration: 113s;
+    -webkit-animation-delay: 42s;
+    animation-delay: 42s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-7 {
+        max-width: 26px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-8 {
+    top: 48.3874145932%;
+    z-index: 22;
+    max-width: 132px;
+    -webkit-animation-duration: 122s;
+    animation-duration: 122s;
+    -webkit-animation-delay: 48s;
+    animation-delay: 48s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-8 {
+        max-width: 41px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-9 {
+    top: 57.3256096362%;
+    z-index: 25;
+    max-width: 138px;
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
+    -webkit-animation-delay: 72s;
+    animation-delay: 72s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-9 {
+        max-width: 44px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-10 {
+    top: 42.2681590168%;
+    z-index: 24;
+    max-width: 107px;
+    -webkit-animation-duration: 124s;
+    animation-duration: 124s;
+    -webkit-animation-delay: 40s;
+    animation-delay: 40s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-10 {
+        max-width: 28.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-11 {
+    top: 58.7238812443%;
+    z-index: 13;
+    max-width: 109px;
+    -webkit-animation-duration: 113s;
+    animation-duration: 113s;
+    -webkit-animation-delay: 66s;
+    animation-delay: 66s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-11 {
+        max-width: 29.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-12 {
+    top: 40.3470198075%;
+    z-index: 16;
+    max-width: 118px;
+    -webkit-animation-duration: 116s;
+    animation-duration: 116s;
+    -webkit-animation-delay: 72s;
+    animation-delay: 72s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-12 {
+        max-width: 34px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-13 {
+    top: 43.0549929093%;
+    z-index: 26;
+    max-width: 112px;
+    -webkit-animation-duration: 126s;
+    animation-duration: 126s;
+    -webkit-animation-delay: 130s;
+    animation-delay: 130s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-13 {
+        max-width: 31px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-14 {
+    top: 52.7173444075%;
+    z-index: 9;
+    max-width: 148px;
+    -webkit-animation-duration: 109s;
+    animation-duration: 109s;
+    -webkit-animation-delay: 42s;
+    animation-delay: 42s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-14 {
+        max-width: 49px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-15 {
+    top: 50.5716877447%;
+    z-index: 22;
+    max-width: 98px;
+    -webkit-animation-duration: 122s;
+    animation-duration: 122s;
+    -webkit-animation-delay: 105s;
+    animation-delay: 105s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-15 {
+        max-width: 24px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-16 {
+    top: 58.928548279%;
+    z-index: 12;
+    max-width: 120px;
+    -webkit-animation-duration: 112s;
+    animation-duration: 112s;
+    -webkit-animation-delay: 32s;
+    animation-delay: 32s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-16 {
+        max-width: 35px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-17 {
+    top: 41.5511503076%;
+    z-index: 17;
+    max-width: 141px;
+    -webkit-animation-duration: 117s;
+    animation-duration: 117s;
+    -webkit-animation-delay: 170s;
+    animation-delay: 170s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-17 {
+        max-width: 45.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-18 {
+    top: 40.0462882145%;
+    z-index: 14;
+    max-width: 106px;
+    -webkit-animation-duration: 114s;
+    animation-duration: 114s;
+    -webkit-animation-delay: 180s;
+    animation-delay: 180s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-18 {
+        max-width: 28px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-19 {
+    top: 50.7542551406%;
+    z-index: 1;
+    max-width: 121px;
+    -webkit-animation-duration: 101s;
+    animation-duration: 101s;
+    -webkit-animation-delay: 190s;
+    animation-delay: 190s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-19 {
+        max-width: 35.5px;
+    }
+}
+
+.cloud-wrap .cloud.cloud-20 {
+    top: 49.839286658%;
+    z-index: 27;
+    max-width: 95px;
+    -webkit-animation-duration: 127s;
+    animation-duration: 127s;
+    -webkit-animation-delay: 80s;
+    animation-delay: 80s;
+}
+
+@media screen and (max-width: 640px) {
+    .cloud-wrap .cloud.cloud-20 {
+        max-width: 22.5px;
+    }
+}
